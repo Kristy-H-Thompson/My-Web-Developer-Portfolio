@@ -9,6 +9,10 @@ footer{
     padding:2rem;
 }
 
+footer.dark{
+    color:var(--black);
+}
+
 footer ul{
     list-style-type: none;
     font-size:1.3rem;
