@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useEffect, useMemo } from "react";
+import { useEffect } from "react";
 import Toggle from "react-toggle";
 import { useMediaQuery } from "react-responsive";
 
@@ -13,14 +13,6 @@ export const ToggleMode = () => {
       document.body.classList.remove('dark');
     }
   }, [isDark]); 
-
-  const systemPrefersDark = useMediaQuery(
-    {
-      query: "(prefers-color-scheme: dark)",
-    },
-    undefined,
-    (isSystemDark) => setIsDark(isSystemDark)
-  );
 
   return (
     <Toggle
