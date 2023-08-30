@@ -41,13 +41,13 @@ footer a:hover{
     background-color:var(--white); 
     border: 5px solid var(--orange);
     border-radius:100%;
-    margin-right:4rem;
     max-width:150px;
     min-width:150px;
     padding:1rem;
+    width:100%;
 }
 
-@media (max-width:875px) {
+@media (max-width:950px) {
     #bottom-nav{
         display:none;
     }
