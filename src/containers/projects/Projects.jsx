@@ -42,6 +42,7 @@ const Projects = () => {
             <h3>Starstar</h3>
             <h4>Built using: Python, MySQL, Discord, Disnake</h4>
             <hr/>
+            <p>As a custom discord bot commission from a roleplaying website, Starstar represents the site’s mascot. She helps with server entertainment — games and sarcastic remarks — as well as utility functions: tracking points in the shop; adding and managing character information; creating topics and tracking posts.</p>
 
             <div className="project-links">
             <Button img={projects} alt="Project Details" type='button'  link="https://github.com/Kristy-H-Thompson">Details</Button>
