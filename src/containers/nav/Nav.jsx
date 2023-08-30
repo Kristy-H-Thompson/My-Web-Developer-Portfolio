@@ -15,7 +15,7 @@ const Nav = () => {
     		</ul>
 			
   		<div id="menuToggle" className="handle"> 
-			<a><img alt="My icon" className="my-icon" src="https://i.imgur.com/OBpKPl1.png" /></a> 
+			<a href="#homgit adde"><img alt="My icon" className="my-icon" src="https://i.imgur.com/OBpKPl1.png" /></a> 
 		</div>
 	</nav>
 	<div id="pushBack" style={{height:'0em', display:'none'}}></div>
