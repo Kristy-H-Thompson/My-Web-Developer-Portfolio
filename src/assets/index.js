@@ -1,9 +1,9 @@
 export const contactImg = require('./contactImg.png');
 export const figma = require('./figma.png');
 export const github = require('./github.png');
-export const logo = require('./klogo.png');
 export const laptop = require('./laptop.png');
 export const linkedin = require('./linkedin.png');
+export const mylogo = require('./mylogo.png');
 export const profileImg = require('./profileImage.jpg');
 export const projects = require('./projects.png');
 export const resume = require('./resume.png');

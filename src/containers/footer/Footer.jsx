@@ -1,5 +1,5 @@
 import React from 'react'
-import {logo} from '../../assets'
+import {mylogo} from '../../assets'
 import {DividerTop, Toggle} from '../../components';
 import './footer.css';
 
@@ -11,7 +11,7 @@ const Footer = (props) => {
     <DividerTop />
     <footer>
         <div className="footer-icon-container">
-        <a href='#home'><img className="footer-icon" alt="Kristys's icon" src={logo} /></a>
+        <a href='#home'><img className="footer-icon" alt="Kristys's icon" src={mylogo} /></a>
         </div>
 
         <div>

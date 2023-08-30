@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css';
-import {logo} from '../../assets'
+import {mylogo} from '../../assets'
 
 
 
@@ -9,7 +9,7 @@ const Nav = () => {
 	<>
     <nav id="navBar">
          
-        <a className="first_link" href="#home"><img alt="My icon" className="my-icon" src={logo} /></a>
+        <a className="first_link" href="#home"><img alt="My icon" className="my-icon" src={mylogo} /></a>
 
     		<ul id="menu">    
       			<li><a href="#projects">Projects</a></li>
