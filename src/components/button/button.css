@@ -1,0 +1,91 @@
+.button-container {
+    border: 1px solid var(--orange);    
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: 150;
+    height: 50px;    
+    letter-spacing: 1px;
+    margin-left: 0px;
+    margin-right: auto;
+    overflow: hidden;    
+    position: relative;
+    transition: 0.5s;
+    width:8rem;
+}
+
+.button-container button {
+    height: 100%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-weight: bold;
+    display: inline;
+    padding: 1rem;
+    background: var(--orange);
+    -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+    mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+    -webkit-mask-size: 7100% 100%;
+    mask-size: 7100% 100%;
+    border: none;
+    color: var(--white);
+    display: inline;
+    cursor: pointer;
+    -webkit-animation: ani2 0.7s steps(70) forwards;
+    animation: ani2 0.7s steps(70) forwards;
+    width:100%;
+}
+.button-container button:hover {
+    -webkit-animation: ani 0.7s steps(70) forwards;
+    animation: ani 0.7s steps(70) forwards;
+    padding:.5rem;
+    padding-left:1rem;
+}
+
+.button-container span {
+    position: absolute;
+    color: var(--black);
+    text-align: center;
+    font-weight: 100;
+    font-size:1rem;
+    position: absolute;
+    letter-spacing: 1px;
+    margin-top: 17px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+  .button-hover {
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    transform: translateX(60px);
+    opacity: 0;
+    -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
+    transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
+    margin: 0;
+    padding: 5px 5px;
+  }
+  
+  a.button-image:hover img {
+    aspect-ratio: 1/1;
+    height:40px;
+    width: 40px;
+    opacity: 1;
+    transform: translateX(60px);
+  }
+
+.button-container span img{
+    display:inline;
+    float:left;
+    height:30px;
+    margin-left:.5rem;
+    margin-right:.5rem;
+    max-height:100%;
+  }
+
+.button-container span {
+    color:var(--black);
+    font-size:1.2rem;
+    justify-content: center;
+    padding:0px;
+}
+  

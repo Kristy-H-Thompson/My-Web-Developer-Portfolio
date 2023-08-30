@@ -1,0 +1,42 @@
+.about {
+    display:block grid;
+    grid-template-columns: 2.2fr 1fr;
+    margin:2rem;
+}
+
+.introduction{
+    display:inline;
+    width:80%;
+}
+
+.laptop {
+    aspect-ratio: 1/1;
+    display:inline;
+    float:right;
+    margin-top:15%;
+    min-width:300px;
+    width:100%;
+}
+
+
+@media (max-width:850px) {
+
+    .about{
+        grid-template-columns: 1fr;
+        margin-inline: 2rem;
+        margin-right:0rem;
+    }
+
+    .laptop{
+        
+        margin:0px;
+        max-width:280px;
+        min-width:150px;
+        place-self: center;
+    }
+
+    .introduction{
+        width:100%;
+    }
+
+}

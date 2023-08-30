@@ -1,0 +1,35 @@
+.contactGrid{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:4rem;
+    width:100%;
+}
+
+.contact-img{
+    aspect-ratio: 1/1;
+    align-self: center;
+    margin-inline: auto;
+    max-width:350px;
+    width:70%;
+}
+
+@media (max-width:770px) {
+    .contactGrid{
+    grid-template-columns: .8fr 1fr;
+    }
+
+}
+
+@media (max-width:600px) {
+    .contactGrid{
+    grid-template-columns:1fr;
+    padding:2rem;
+    }
+
+    .contact-img{
+        align-self: center;
+        margin-inline:auto;
+        width:50%;
+    }
+}

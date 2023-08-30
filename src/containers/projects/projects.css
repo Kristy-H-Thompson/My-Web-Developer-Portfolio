@@ -1,0 +1,127 @@
+
+.projects {
+    background-color: var(--purple-dark);
+    color:var(--white);
+    padding:2rem;
+    width:100%;
+}
+
+.dark .projects{
+    color:var(--black);
+}
+
+.projects.dark {
+    color:var(--black);
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: left;
+    gap:2rem;
+    margin-top:3rem;
+    padding-top:0px;
+}
+
+.project {    
+    background-color: var(--white);
+    border-radius:20px;
+    box-sizing: border-box;
+    color:var(--black);
+    margin-left:1rem;
+    max-width:100%;
+    padding:1rem;
+    padding-right:8rem;
+}
+
+.projects-img{
+    aspect-ratio:1/1;
+    background-color:var(--white);
+    border:10px solid var(--purple-dark);
+    border-radius:100%;
+    margin-top:1rem;
+    margin-left:-40%;
+    min-width:100px;
+    position:relative;
+    width:80%;
+    z-index:1;
+}
+
+.projects-img:hover{
+    border:10px solid var(--orange);
+}
+
+.project-links{
+    display: grid;
+    gap:1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items:start;
+    margin-top:3rem;
+    width:100%;
+}
+
+
+.mobile--project-img {
+    display:none;
+}
+
+@media (max-width:790px) {
+    .project-links{
+        margin-top:2rem;
+    }
+
+    .project{width:80%;}
+
+    .projects-grid{
+        grid-template-columns: 1fr;
+        padding-right:.5rem;
+    }
+
+    .projects-img{
+        display:none;
+    }
+
+    .project{
+        box-sizing: border-box;
+        margin-inline:0px;
+        padding:1rem;
+    }
+
+    .projects-img--container{
+        display:none;
+}
+        .mobile--project-img{
+            align-self: right;
+            aspect-ratio: 1/1;
+            background-color: var(--white);
+            display:block;
+            border:10px solid var(--purple-dark);
+            border-radius:100%;
+            float:right;
+            margin-bottom:-2.8rem;
+            margin-right:-2.8rem;
+            margin-top:1rem;
+            max-width:35%;
+        }
+
+        .mobile--project-img:hover{
+            border:10px solid var(--orange);
+        }
+    
+}
+
+
+@media (max-width:550px) {
+
+    .mobile--project-img{
+        margin-right:-2.3rem;
+        margin-top:-2rem;
+    }
+    .project-links{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .mobile--project-img{
+        max-width:40%;
+    }
+}

@@ -1,0 +1,33 @@
+#email-form {
+    background-color:var(--white);
+    border: 4px solid var(--purple-dark);
+    border-radius:10px;
+    box-sizing: border-box;
+    display:block;
+    width:100%;
+    padding:2rem;
+}
+
+#email-form .button-container{
+    width:35%;
+}
+
+input {
+    height:1.5rem;
+    width:100%;
+}
+
+textarea {
+    display: block;
+    margin-bottom:2rem;
+    width:100%;
+}
+
+.field{
+    margin-top:1rem;
+}
+
+
+input:invalid {
+    border: 2px dashed red;
+  }
