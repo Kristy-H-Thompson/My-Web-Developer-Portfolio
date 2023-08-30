@@ -11,7 +11,7 @@ const Footer = (props) => {
     <DividerTop />
     <footer>
         <div className="footer-icon-container">
-        <a href='#home'><img className="footer-icon" alt="Kristys's icon" src={mylogo} /></a>
+        <img className="footer-icon" alt="Kristys's icon" src={mylogo} />
         </div>
 
         <div>
