@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import Toggle from "react-toggle";
-import { useMediaQuery } from "react-responsive";
 
 export const ToggleMode = () => {
   const [isDark, setIsDark] = useState(true);
