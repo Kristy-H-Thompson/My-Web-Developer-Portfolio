@@ -12,9 +12,7 @@ const Projects = () => {
     <DividerTop />
     <main className="projects" id="projects">
         <h2>Coding Projects</h2>
-        <hr/>
-        <p>“I decided as long as I'm going to hell, I might as well do it thoroughly.” “Death is Peaceful, Life is Harder”</p>
-    
+        <hr/>    
         <div className="projects-grid">
 
 

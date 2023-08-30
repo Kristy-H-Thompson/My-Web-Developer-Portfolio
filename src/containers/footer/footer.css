@@ -68,7 +68,8 @@ footer a:hover{
     }
 
     .footer-icon-container{
-        min-width:100px;
+        min-width:40px;
+        max-width:90px;
     }
 
     .footer-icon{
