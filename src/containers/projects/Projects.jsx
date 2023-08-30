@@ -31,7 +31,7 @@ const Projects = () => {
             <Button img={figma} alt="Figma" type='button'  link="https://github.com/Kristy-H-Thompson">Figma</Button>
             </div>
 
-            <img className="mobile--project-img" src={strayPaws} />
+            <img alt="StrayPaws" className="mobile--project-img" src={strayPaws} />
         </div>
         <div className="projects-img--container"> 
             <img className="projects-img" alt="project 1 -- Straypaws" src={strayPaws} />
@@ -50,7 +50,7 @@ const Projects = () => {
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson">Github</Button>
             </div>
 
-            <img className="mobile--project-img" src={starstar} />
+            <img alt="Starstar" className="mobile--project-img" src={starstar} />
         </div>
 
         <div className="projects-img--container">
