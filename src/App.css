@@ -41,6 +41,10 @@ section {
     padding:2rem;
 }
 
+footer.dark{
+    color:var(--black);
+}
+
 .border--bottom {
     height: 100px;
     width: 100%;
