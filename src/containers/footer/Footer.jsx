@@ -1,13 +1,14 @@
 import React from 'react'
 import {logo} from '../../assets'
-import {Toggle} from '../../components';
+import {DividerTop, Toggle} from '../../components';
 import './footer.css';
 
 
 const Footer = (props) => {
 
   return (
-    
+    <>
+    <DividerTop />
     <footer>
         <div className="footer-icon-container">
         <a href='#home'><img className="footer-icon" alt="Kristys's icon" src={logo} /></a>
@@ -25,7 +26,7 @@ const Footer = (props) => {
         </div>
 
 
-        <div className="footer-nav">
+        <div id="bottom-nav" className="footer-nav">
         <h4>Navigation</h4>
         <hr/>
         <ul>
@@ -34,9 +35,8 @@ const Footer = (props) => {
             <li><a href="#contact">Contact</a></li>   
         </ul>
         </div>
-
-
     </footer>
+    </>
   )
 }
 

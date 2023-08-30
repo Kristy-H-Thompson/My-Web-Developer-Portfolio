@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import {Button, DividerBottom} from '../../components';
+import {Button, DividerBottom, Toggle} from '../../components';
 import {profileImg, resume, github, linkedin, projects} from '../../assets'
 
 
@@ -10,6 +10,7 @@ const Header = () => {
         <header id="home">
             <div>
             <div className="accent">
+                <Toggle />
                 <img className="header-img" alt=" Kristy" src={profileImg} />
             </div>
             <DividerBottom />

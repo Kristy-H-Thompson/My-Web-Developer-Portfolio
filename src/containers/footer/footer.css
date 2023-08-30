@@ -5,7 +5,6 @@ footer{
     gap:2rem;
     grid-template-columns:1fr 2fr 2fr;
     overflow:hidden;
-    margin-top:4rem;
     padding:2rem;
 }
 
@@ -32,8 +31,9 @@ footer a:hover{
 
 .footer-icon{
     aspect-ratio: 1/1;
-   
-    width:150px;
+    margin-left:.5rem;
+    margin-top:.5rem;
+    width:130px;
 }
   
 .footer-icon-container{
@@ -44,4 +44,37 @@ footer a:hover{
     margin-right:4rem;
     max-width:150px;
     min-width:150px;
+    padding:1rem;
+}
+
+@media (max-width:875px) {
+    #bottom-nav{
+        display:none;
+    }
+
+    footer {
+        grid-template-columns:1fr 2fr;
+    }
+}
+
+
+@media (max-width:575px) {
+    #bottom-nav{
+        display:none;
+    }
+
+    footer {
+        grid-template-columns:.8fr 2fr;
+    }
+
+    .footer-icon-container{
+        min-width:100px;
+    }
+
+    .footer-icon{
+        aspect-ratio: 1/1;
+        margin-left:.2rem;
+        margin-top:.5rem;
+        width:100px;
+    }
 }

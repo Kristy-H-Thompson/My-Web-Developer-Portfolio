@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
 import Toggle from "react-toggle";
+import './toggle.css';
+
 
 export const ToggleMode = () => {
   const [isDark, setIsDark] = useState(true);
@@ -17,7 +19,7 @@ export const ToggleMode = () => {
     <Toggle
       checked={isDark}
       onChange={({ target }) => setIsDark(target.checked)}
-      icons={{ checked: "🌙", unchecked: "🔆" }}
+      icons={{ checked: "☀︎", unchecked: "☽" }}
       aria-label="Dark mode toggle"
     />
   );
