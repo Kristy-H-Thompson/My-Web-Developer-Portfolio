@@ -8,12 +8,12 @@ import './contact.css';
 
 const Contact = () => {
 return(
-    <div id="contact" className="contactGrid">
+    <section id="contact" className="contactGrid">
           <img alt="contact me" className="contact-img" src={contactImg} />
         <div>
         <ContactMe/>
         </div>
-    </div>
+    </section>
   );
 }
 
