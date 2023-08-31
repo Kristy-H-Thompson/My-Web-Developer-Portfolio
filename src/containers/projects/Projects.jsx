@@ -25,8 +25,8 @@ const Projects = () => {
             
             <div className="project-links">
             <Button img={projects} alt="Project Details" type='button' link="https://github.com/Kristy-H-Thompson">Details</Button>
-            <Button img={website} alt="Website" type='button'  link="https://github.com/Kristy-H-Thompson">Website</Button>
-            <Button img={figma} alt="Figma" type='button'  link="https://github.com/Kristy-H-Thompson">Figma</Button>
+            <Button img={website} alt="Website" type='button'  link="https://www.straypawsrescue.com/">Website</Button>
+            <Button img={figma} alt="Figma" type='button'  link="https://www.figma.com/file/X035LUo2Nby6tfYuStSrUO/Stray-Paws?type=design&node-id=0%3A1&mode=design&t=SKpkQkMv3Qk17JAJ-1">Figma</Button>
             </div>
 
             <img alt="StrayPaws" className="mobile--project-img" src={strayPaws} />
