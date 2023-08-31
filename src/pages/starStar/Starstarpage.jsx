@@ -2,7 +2,7 @@ import React from 'react'
 
 const Starstarpage = () => {
   return (
-    <div>Starstarpage eventually please work</div>
+    <div>Starstarpage eventually please yo</div>
   )
 }
 
