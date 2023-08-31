@@ -10,9 +10,10 @@ const Contact = () => {
 return(
     <section id="contact" className="contactGrid">
           <img alt="contact me" className="contact-img" src={contactImg} />
-        <div>
+        
+      <div>
         <ContactMe/>
-        </div>
+      </div>
     </section>
   );
 }
