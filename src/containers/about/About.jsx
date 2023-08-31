@@ -19,14 +19,14 @@ const About = () => {
           <p>Little paragraph coming soon</p>
 
           <div className="tech-grid">
-              <img alt={html} src="" />
-              <img alt={css} src="" /> 
-              <img alt={javascript} src="" />
-              <img alt={react} src="" />
-              <img alt={python} src="" />
-              <img alt={mysql} src="" /> 
-              <img alt={sass} src="" />
-              <img alt={figmatwo} src="" />
+              <img alt="html" src={html} />
+              <img alt="css" src={css} /> 
+              <img alt="javascript" src={javascript}/>
+              <img alt="react" src={react} />
+              <img alt="pyton" src={python}/>
+              <img alt="mysql" src={mysql}/> 
+              <img alt="sass" src={sass} />
+              <img alt="figma" src={figmatwo}/>
           </div>
         </div>
     </section>
