@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import {about, css, html, figma, figmatwo, javascript, react, mysql, sass, python} from '../../assets'
+import {about, css, html, figmatwo, javascript, react, mysql, sass, python} from '../../assets'
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ const About = () => {
               <img alt={python} src="" />
               <img alt={mysql} src="" /> 
               <img alt={sass} src="" />
-              <img alt={figma} src="" />
+              <img alt={figmatwo} src="" />
           </div>
         </div>
     </section>
