@@ -1,4 +1,5 @@
 export const contactImg = require('./contactImg.png');
+export const about = require('./about.png');
 export const figma = require('./figma.png');
 export const github = require('./github.png');
 export const laptop = require('./laptop.png');
