@@ -19,7 +19,7 @@
 }
 
 .tech {
-    grid-template-rows: span 2;
+    grid-column: span 2;
 }
 
 .tech-grid{
@@ -28,6 +28,7 @@
     gap:1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;
+    padding-right:2rem;
     width:100%; 
 }
 
@@ -43,7 +44,6 @@
 }
 
 .tech-grid img:hover {
-  color: #ffee10;
   box-shadow: 0 0 5px var(--purple-dark);
   text-shadow: 0 0 5px var(--purple-dark);
 }
