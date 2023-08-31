@@ -23,10 +23,10 @@ const Header = () => {
                 <h4>Check out my: </h4>
 
                 <div className="button-grid">
-                <Button img={resume} type='button' alt="resume">Resume</Button>
-                <Button img={github} type='button'  alt="github" link="https://github.com/Kristy-H-Thompson">Github</Button>
-                <Button img={linkedin} type='button'  alt="linkedin" link="https://www.linkedin.com/in/kristy-thompson-372990243/">Linkedin</Button>
-                <Button img={projects} type='button'  alt="projets" link="#projects">Projects</Button>
+                <Button img={resume} type='button' alt="resume" target="_blank">Resume</Button>
+                <Button img={github} type='button'  alt="github" link="https://github.com/Kristy-H-Thompson" target="_blank">Github</Button>
+                <Button img={linkedin} type='button'  alt="linkedin" link="https://www.linkedin.com/in/kristy-thompson-372990243/" target="_blank">Linkedin</Button>
+                <Button img={projects} type='button'  alt="projets" link="#projects" target="_self">Projects</Button>
                 </div>
             </div>
         </header>

@@ -24,9 +24,9 @@ const Projects = () => {
             <p>Stray Paws Rescue is a foster-based rescue located in Missouri. While transitioning their software solution from Rescue Groups to Shelterluv, they recognized a need for additional assistance. My team and I built them a new website that uses a Flask backend to create a flexible modular page design and API calls to load their adoptable animals in real time.</p>
             
             <div className="project-links">
-            <Button img={projects} alt="Project Details" type='button' link="https://github.com/Kristy-H-Thompson">Details</Button>
-            <Button img={website} alt="Website" type='button'  link="https://www.straypawsrescue.com/">Website</Button>
-            <Button img={figma} alt="Figma" type='button'  link="https://www.figma.com/file/X035LUo2Nby6tfYuStSrUO/Stray-Paws?type=design&node-id=0%3A1&mode=design&t=SKpkQkMv3Qk17JAJ-1">Figma</Button>
+            <Button img={projects} alt="Project Details" type='button' link="https://github.com/Kristy-H-Thompson"> target="_blank"Details</Button>
+            <Button img={website} alt="Website" type='button'  link="https://www.straypawsrescue.com/" target="_blank">Website</Button>
+            <Button img={figma} alt="Figma" type='button'  link="https://www.figma.com/file/X035LUo2Nby6tfYuStSrUO/Stray-Paws?type=design&node-id=0%3A1&mode=design&t=SKpkQkMv3Qk17JAJ-1" target="_blank">Figma</Button>
             </div>
 
             <img alt="StrayPaws" className="mobile--project-img" src={strayPaws} />
@@ -43,9 +43,9 @@ const Projects = () => {
             <p>As a custom discord bot commission from a roleplaying website, Starstar represents the site’s mascot. She helps with server entertainment — games and sarcastic remarks — as well as utility functions: tracking points in the shop; adding and managing character information; creating topics and tracking posts.</p>
 
             <div className="project-links">
-            <Button img={projects} alt="Project Details" type='button'  link="https://github.com/Kristy-H-Thompson">Details</Button>
-            <Button img={website} alt="Website" type='button'  link="https://github.com/Kristy-H-Thompson">Website</Button>
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson">Github</Button>
+            <Button img={projects} alt="Project Details" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Details</Button>
+            <Button img={website} alt="Website" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Website</Button>
+            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Github</Button>
             </div>
 
             <img alt="Starstar" className="mobile--project-img" src={starstar} />
