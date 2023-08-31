@@ -18,6 +18,21 @@
     width:100%;
 }
 
+.tech-grid{
+    display: grid;
+    grid-column: span 2;
+    gap:1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    width:100%; 
+}
+
+.tech-grid img{
+    aspect-ratio: 1/1;
+    max-width:200px;
+    width:100%
+}
+
 
 @media (max-width:850px) {
 

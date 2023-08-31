@@ -1,8 +1,7 @@
 import React from 'react'
 import './projects.css'
 import {Button, DividerTop, DividerBottom} from '../../components';
-import {figma, github, projects, website} from '../../assets'
-import {strayPaws, starstar} from '../../assets'
+import {figma, github, projects, strayPaws, starstar, website} from '../../assets'
 
 
 

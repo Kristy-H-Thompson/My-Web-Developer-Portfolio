@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import about from '../../assets/laptop.png';
+import {about, css, html, figmatwo, javascript, react, mysql, sass, python} from '../../assets'
 
 const About = () => {
   return (
@@ -12,6 +12,23 @@ const About = () => {
         <p>Outside of coding, I also enjoy spending time with my three rescue dogs, reading every book I can get my hands on, and traveling.</p>
         </div>
         <img className="laptop" alt="laptop and books" src ={about}/>
+
+        <div>
+          <h2>What do I do?</h2>
+          <hr />
+          <p>Little paragraph coming soon</p>
+
+          <div className="tech-grid">
+              <img alt={html} src="" />
+              <img alt={css} src="" /> 
+              <img alt={javascript} src="" />
+              <img alt={react} src="" />
+              <img alt={python} src="" />
+              <img alt={mysql} src="" /> 
+              <img alt={sass} src="" />
+              <img alt={figma} src="" />
+          </div>
+        </div>
     </section>
   )
 }
