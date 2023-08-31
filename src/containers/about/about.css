@@ -28,7 +28,6 @@
     gap:1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-around;
-    padding-right:2rem;
     width:100%; 
 }
 
