@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <img className="laptop" alt="laptop and books" src ={about}/>
 
-        <div>
+        <div className="tech"> 
           <h2>What do I do?</h2>
           <hr />
           <p>Little paragraph coming soon</p>
