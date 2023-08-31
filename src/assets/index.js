@@ -10,6 +10,7 @@ export const javascript = require('./javascript.png');
 export const laptop = require('./laptop.png');
 export const linkedin = require('./linkedin.png');
 export const mylogo = require('./mylogo.png');
+export const mysql = require('./mysql.png');
 export const profileImg = require('./profileImage.jpg');
 export const projects = require('./projects.png');
 export const python = require('./python.png');
