@@ -1,6 +1,7 @@
 
 export const about = require('./about.png');
 export const contactImg = require('./contactImg.png');
+export const css = require('./css.png');
 export const figma = require('./figma.png');
 export const figmatwo = require('./figmatwo.png');
 export const github = require('./github.png');
