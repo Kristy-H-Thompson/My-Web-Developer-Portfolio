@@ -1,7 +1,7 @@
 import React from 'react'
 import {Footer, Projectdetails, Projectoverview, Nav} from '../../containers';
 import {strayPaws} from '../../assets'
-import './straypaws.css'
+import './straypaw.css'
 
 
 
