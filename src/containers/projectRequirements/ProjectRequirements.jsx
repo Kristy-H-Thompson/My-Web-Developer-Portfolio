@@ -1,7 +1,7 @@
 import React from 'react'
 import './projectrequirements.css'
 
-const ProjectRequirements = () => {
+const ProjectRequirements = (props) => {
   return (
 <section className="projectRequirements">
 
