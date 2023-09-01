@@ -14,8 +14,21 @@ const Straypawspage = () => {
     </Projectoverview>
 
     <Projectdetails projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month">
-    <li><b>Main Project Goals:</b> 
-      <ul className="projectGoals">
+         
+      <li><b>Software & Technology Used:</b> 
+      <ul className="projectList">
+        <li><b>Figma:</b> used to create UI design with client</li>
+        <li><b>Shelteruv API:</b> shelter's api for animal information</li>
+        <li><b>MYSQL:</b> used to store data for the website</li>
+        <li><b>Python Anywhere:</b> used to host the website</li>
+        <li><b>Python:</b> back-end logic</li>
+        <li><b>Flask: </b>used to create a flexible modular page designs</li>
+        <li><b>HTML/CSS:</b> used to build and style pages</li>
+      </ul></li>
+
+      <br/>
+      <li><b>Main Project Goals:</b> 
+      <ul className="projectList">
         <li>assist the rescue in transitioning their data from Rescue Groups to Shelterluv</li>
         <li>build an updated website UI based on an agreed upon figma design</li>
         <li>find a cost effective platform to host the rescue's new website</li>
@@ -23,17 +36,36 @@ const Straypawspage = () => {
         <li>transition the rescues domain name over to new website</li>
         <li>complete new website before Rescue Groups ended their agreement</li>
       </ul></li>
+
       <br/>
-      <li><b>Software & Technology Used:</b> 
-      <ul className="projectSoftware">
-        <li><b>Figma:</b> used to create UI design with client</li>
-        <li><b>Shelteruv API:</b> shelter's api for animal information</li>
-        <li><b>MYSQL:</b>used to store data for the website</li>
-        <li><b>Python Anywhere:</b> used to host the website</li>
-        <li><b>Python:</b> back-end logic</li>
-        <li><b>Flask: used to create a flexible modular page designs</b></li>
-        <li><b>HTML/CSS</b>used to build and style pages</li>
+      <li><b>Project Pages:</b> 
+      <ul className="projectList">
+        <li>home </li>
+        <li>about us</li>
+        <li>contact information</li>
+        <li>news and events</li>
+        <li>adoption information</li>
+        <li>sponsorship information</li>
+        <li>donations</li>
+        <li>forms</li>
+        <li>featured animals</li>
+        <li>dogs for adoption</li>
+        <li>cats for adoption</li>
+        <li>fosters</li>
+        <li>photo gallery</li>
       </ul></li>
+
+      <br/>
+      <li><b>Other project Features:</b> 
+      <ul className="projectList">
+        <li>google calander integration</li>
+        <li>filters and search bar for pets</li>
+        <li>featured pets photo slider</li>
+        <li>social media links</li>
+        <li>donation iframe</li>
+      </ul></li>
+
+  
     </Projectdetails>
 
 
