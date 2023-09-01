@@ -4,7 +4,7 @@ import {Button, DividerBottom, ProjectOverview, Toggle} from '../../components';
 
 
 
-const ProjectOverview = (props) => {
+const Projectoverview = (props) => {
   return (
     <article id={props.projectName}>
 
@@ -32,4 +32,4 @@ const ProjectOverview = (props) => {
   )
 }
 
-export default ProjectOverview
+export default Projectoverview
