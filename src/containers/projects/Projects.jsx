@@ -44,16 +44,16 @@ const Projects = () => {
             <p>As a custom discord bot commission from a roleplaying website, Starstar represents the site’s mascot. She helps with server entertainment — games and sarcastic remarks — as well as utility functions: tracking points in the shop; adding and managing character information; creating topics and tracking posts.</p>
 
             <div className="project-links">
-            <Link to="/straypaws"><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>
+            <Link to="/starstar"><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>
             <Button img={website} alt="Website" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Website</Button>
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Github</Button>
             </div>
 
-            <Link to="/straypaws"><img alt="Starstar" className="mobile--project-img" src={starstar} /></Link>
+            <Link to="/starstar"><img alt="Starstar" className="mobile--project-img" src={starstar} /></Link>
         </div>
 
         <div className="projects-img--container">
-            <Link to="/straypaws"><img className="projects-img" alt="project 2 -- Starstar" src={starstar} /></Link>
+            <Link to="/starstar"><img className="projects-img" alt="project 2 -- Starstar" src={starstar} /></Link>
         </div>
 
 
