@@ -15,8 +15,7 @@ const Straypawspage = () => {
         Stray Paws Rescue is a foster-based rescue located in Missouri. While transitioning their software solution from Rescue Groups to Shelterluv, they recognized a need for additional assistance. My team and I built them a new website that uses a Flask backend to create a flexible modular page design and API calls to load their adoptable animals in real time.
     </Projectoverview>
 
-    <Projectdetails projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month">
-         
+    <Projectdetails projectName="Stray Paws" projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month" projectImage={strayPaws}>   
       <li><b>Software & Technology Used:</b> 
       <ul className="projectList">
         <li><b>Figma:</b> used to create UI design with client</li>

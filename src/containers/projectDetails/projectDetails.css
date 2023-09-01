@@ -2,3 +2,9 @@
     list-style-type: none;
     margin-left:0px;
 }
+
+.projectDetails {
+display:block grid;
+    grid-template-columns: 2.2fr 1fr;
+    margin:2rem;
+}

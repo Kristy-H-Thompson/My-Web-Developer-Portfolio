@@ -5,6 +5,8 @@ import './projectDetails.css'
 const ProjectDetails = (props) => {
   return (
     <section className="projectDetails">
+
+        <div className="details">
         <h2>Project Details</h2>
         <hr />
         <ul>
@@ -14,6 +16,11 @@ const ProjectDetails = (props) => {
             <br/>
             {props.children}
         </ul>
+        </div>
+
+        <div className="details-image">
+            <img src={props.projectImage} alt={props.projectName}/>
+        </div>
     </section>
   )
 }
