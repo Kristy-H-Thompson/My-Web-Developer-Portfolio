@@ -1,6 +1,6 @@
 import React from 'react'
 import {Footer, Projectdetails, Projectoverview, Nav} from '../../containers';
-import {strayPaws} from '../../assets'
+import {laptop, strayPaws} from '../../assets'
 import './straypaw.css'
 
 
@@ -15,7 +15,7 @@ const Straypawspage = () => {
         Stray Paws Rescue is a foster-based rescue located in Missouri. While transitioning their software solution from Rescue Groups to Shelterluv, they recognized a need for additional assistance. My team and I built them a new website that uses a Flask backend to create a flexible modular page design and API calls to load their adoptable animals in real time.
     </Projectoverview>
 
-    <Projectdetails projectName="Stray Paws" projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month" projectImage={strayPaws}>   
+    <Projectdetails projectName="Stray Paws" projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month" projectImage={laptop}>   
       <li><b>Software & Technology Used:</b> 
       <ul className="projectList">
         <li><b>Figma:</b> used to create UI design with client</li>
@@ -37,36 +37,6 @@ const Straypawspage = () => {
         <li>transition the rescues domain name over to new website</li>
         <li>complete new website before Rescue Groups ended their agreement</li>
       </ul></li>
-
-      <br/>
-      <li><b>Project Pages:</b> 
-      <ul className="projectList">
-        <li>home </li>
-        <li>about us</li>
-        <li>contact information</li>
-        <li>news and events</li>
-        <li>adoption information</li>
-        <li>sponsorship information</li>
-        <li>donations</li>
-        <li>forms</li>
-        <li>featured animals</li>
-        <li>dogs for adoption</li>
-        <li>cats for adoption</li>
-        <li>fosters</li>
-        <li>photo gallery</li>
-      </ul></li>
-
-      <br/>
-      <li><b>Other Project Features:</b> 
-      <ul className="projectList">
-        <li>google calander integration</li>
-        <li>filters and search bar for pets</li>
-        <li>featured pets photo slider</li>
-        <li>social media links</li>
-        <li>donation iframe</li>
-      </ul></li>
-
-  
     </Projectdetails>
 
 

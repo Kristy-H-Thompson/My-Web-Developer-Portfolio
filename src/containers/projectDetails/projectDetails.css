@@ -25,7 +25,7 @@ display:block grid;
 
 @media (max-width:850px) {
 
-    .details{
+    .projectDetails{
         grid-template-columns: 1fr;
         margin-inline: 2rem;
         margin-right:0rem;
@@ -46,8 +46,3 @@ display:block grid;
 
 
 
-@media (max-width:700px) {
-    .projectDetails {
-        grid-template-columns: 1fr;
-    }
-}
