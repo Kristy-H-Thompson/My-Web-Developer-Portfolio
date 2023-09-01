@@ -1,4 +1,4 @@
-export {default as home } from './home/Home';
-export {default as nopage } from './nopage/Nopage';
-export {default as starstarpage } from './starStar/Starstarpage';
-export {default as straypawspage } from './strayPaws/Straypawspage';
+export {default as Home } from './home/Home';
+export {default as Nopage } from './nopage/Nopage';
+export {default as Starstarpage } from './starStar/Starstarpage';
+export {default as Straypawspage } from './strayPaws/Straypawspage';
