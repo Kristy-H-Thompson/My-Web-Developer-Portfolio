@@ -1,6 +1,8 @@
 import React from 'react'
 import {Footer, Projectdetails, Projectoverview, Nav} from '../../containers';
 import {strayPaws} from '../../assets'
+import './straypaws.css'
+
 
 
 
@@ -56,7 +58,7 @@ const Straypawspage = () => {
       </ul></li>
 
       <br/>
-      <li><b>Other project Features:</b> 
+      <li><b>Other Project Features:</b> 
       <ul className="projectList">
         <li>google calander integration</li>
         <li>filters and search bar for pets</li>
