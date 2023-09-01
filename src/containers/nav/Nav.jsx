@@ -10,7 +10,7 @@ const Nav = () => {
 	<>
     <nav id="navBar">
          
-    <Link className="first_link" to="/straypaws"><img alt="My icon" className="my-icon" src={mylogo} /></Link>
+    <Link className="first_link" to="/"><img alt="My icon" className="my-icon" src={mylogo} /></Link>
 
     		<ul id="menu">    
       			<li><a href="#projects">Projects</a></li>
