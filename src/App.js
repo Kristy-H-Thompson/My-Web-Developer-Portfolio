@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/starstar" element={<Starstarpage />} />
         <Route path="/straypaws" element={<Straypawspage />} />
-        <Route path="*" element={<nopage />} />
+        <Route path="*" element={<Nopage />} />
       </Routes>
     </div>
     </BrowserRouter>
