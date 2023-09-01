@@ -1,7 +1,7 @@
 import React from 'react'
 import './projectOverview.css'
 import {github, website} from '../../assets'
-import {Button, DividerBottom, ProjectOverview, Toggle} from '../../components';
+import {Button, DividerBottom, Toggle} from '../../components';
 
 
 
