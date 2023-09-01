@@ -12,7 +12,7 @@ const ProjectDetails = (props) => {
             <li><b>Project Team:</b> {props.projectTeam}</li>
             <li><b>Project Timeline:</b> {props.projectTimeline}</li>
             <br/>
-            <li><b>Project Goals:</b> {props.children}</li>
+            <li><b>Main Project Goals:</b> {props.children}</li>
         </ul>
     </section>
   )
