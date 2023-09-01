@@ -1,5 +1,7 @@
 import React from 'react'
-import {Footer, ProjectOverviewNav} from '../../containers';
+import {Footer, ProjectOverview, Nav} from '../../containers';
+import {strayPaws} from '../../assets'
+
 
 
 const Straypawspage = () => {

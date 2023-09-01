@@ -1,5 +1,7 @@
 import React from 'react'
 import {github, website} from '../../assets'
+import {Button, DividerBottom, ProjectOverview, Toggle} from '../../components';
+
 
 
 const ProjectOverview = (props) => {
@@ -9,7 +11,7 @@ const ProjectOverview = (props) => {
     <div>
     <div className="accent">
         <Toggle />
-        <img className="header-img" alt=" Kristy" src={profileImg} />
+        <img className="header-img" alt=" Kristy" src={props.projectImage} />
     </div>
     <DividerBottom />
     </div>
