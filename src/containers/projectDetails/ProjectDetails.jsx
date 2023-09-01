@@ -9,7 +9,7 @@ const ProjectDetails = (props) => {
         <div className="details">
         <h2>Project Details</h2>
         <hr />
-        <ul>
+        <ul id="detailsUl">
             <li><b>Project Client:</b> {props.projectClient}</li>
             <li><b>Project Team:</b> {props.projectTeam}</li>
             <li><b>Project Timeline:</b> {props.projectTimeline}</li>
