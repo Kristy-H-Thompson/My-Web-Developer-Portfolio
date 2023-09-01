@@ -1,5 +1,5 @@
 import React from 'react'
-import {about, css, html, figmatwo, javascript, react, mysql, sass, python} from '../../assets'
+import {css, html, figmatwo, javascript, react, mysql, sass, python} from '../../assets'
 
 const Techgrid = () => {
   return (
