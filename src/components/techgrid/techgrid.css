@@ -17,7 +17,7 @@
 
 .tech-grid img::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px var(--purple-dark);
+  box-shadow: 0 0 10px var(--purple-dark);
 }
 
 .tech-grid img:hover {
