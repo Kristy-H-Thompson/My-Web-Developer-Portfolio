@@ -26,7 +26,7 @@ article {
 }
 
 .header-img{
-    aspect-ratio: 1/1.3;
+    aspect-ratio: 1/1;
     background-color:var(--white);
     border:15px solid var(--white);
     border-radius:20px;
