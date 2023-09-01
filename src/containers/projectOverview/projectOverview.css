@@ -74,7 +74,7 @@ article .header-img{
 }
 
 .projectList ul {
-    list-style-type:inside important!;
+    list-style:inside important!;
 }
 
 @media (max-width:1154px) {

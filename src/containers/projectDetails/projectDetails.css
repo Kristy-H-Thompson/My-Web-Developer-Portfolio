@@ -3,6 +3,10 @@
     margin-left:0px;
 }
 
+.projectDetails ul li {
+    margin-left:0px;
+}
+
 .projectDetails {
 display:block grid;
     grid-template-columns: 2.2fr 1fr;
@@ -25,7 +29,7 @@ display:block grid;
 }
 
 .projectList {
-    list-style-type:inside important!;
+    list-style:inside important!;
 }
 
 @media (max-width:900px) {

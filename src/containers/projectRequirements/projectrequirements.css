@@ -3,9 +3,14 @@
     margin-left:0px;
 }
 
+.projectRequirements ul li{
+    margin-left:0px;
+}
+
+
 .projectRequirements {
 display:block grid;
-    grid-template-columns:  1fr 1.5fr;
+    grid-template-columns:  1fr 2fr;
     margin:2rem;
 }
 
