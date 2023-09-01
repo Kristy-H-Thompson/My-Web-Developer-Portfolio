@@ -4,6 +4,10 @@ import './projectrequirements.css'
 const ProjectRequirements = (props) => {
   return (
 <section className="projectRequirements">
+    
+    <div className="requirements-image">
+        <img src={props.projectImage} alt={props.projectImageName}/>
+    </div>
 
     <div className="requirements">
     <h2>Project Requirements</h2>
@@ -11,9 +15,6 @@ const ProjectRequirements = (props) => {
         {props.children}
     </div>
 
-    <div className="requirements-image">
-        <img src={props.projectImage} alt={props.projectImageName}/>
-    </div>
 </section>
   )
 }
