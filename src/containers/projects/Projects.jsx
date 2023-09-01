@@ -3,8 +3,6 @@ import './projects.css'
 import {Button, DividerTop, DividerBottom} from '../../components';
 import {figma, github, projects, strayPaws, starstar, website} from '../../assets'
 import { Outlet, Link } from "react-router-dom";
-import{Starstarpage} from '../..//pages'
-
 
 
 
@@ -27,7 +25,7 @@ const Projects = () => {
             <p>Stray Paws Rescue is a foster-based rescue located in Missouri. While transitioning their software solution from Rescue Groups to Shelterluv, they recognized a need for additional assistance. My team and I built them a new website that uses a Flask backend to create a flexible modular page design and API calls to load their adoptable animals in real time.</p>
             
             <div className="project-links">
-            <Link to="/Starstarpage">Contact<Button img={projects} alt="Project Details" type='button' target="_self"Details>Details</Button></Link>
+            <Link to="/straypaws">Contact<Button img={projects} alt="Project Details" type='button' target="_self"Details>Details</Button></Link>
             <Button img={website} alt="Website" type='button'  link="https://www.straypawsrescue.com/" target="_blank">Website</Button>
             <Button img={figma} alt="Figma" type='button'  link="https://www.figma.com/file/X035LUo2Nby6tfYuStSrUO/Stray-Paws?type=design&node-id=0%3A1&mode=design&t=SKpkQkMv3Qk17JAJ-1" target="_blank">Figma</Button>
             </div>
