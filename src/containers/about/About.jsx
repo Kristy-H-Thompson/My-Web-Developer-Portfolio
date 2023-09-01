@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css';
-import {about, css, html, figmatwo, javascript, react, mysql, sass, python} from '../../assets'
+import {about} from '../../assets'
+import {Techgrid} from '../../components'
 
 const About = () => {
   return (
@@ -22,22 +23,12 @@ const About = () => {
         <img className="laptop" alt="laptop and books" src ={about}/>
         </div>
 
-        
+
         <div className="tech"> 
           <h2>What do I do?</h2>
           <hr />
-          <p>As a front-end software engineer, I am passionate about creating immersive websites and apps that flawlessly blend form with function. My ever growing coding toolkit currently consists of HTML, CSS, JavaScript, React, Python, MySQL, Sass, and Figma.</p>
-
-          <div className="tech-grid">
-              <img alt="html" src={html} />
-              <img alt="css" src={css} /> 
-              <img alt="javascript" src={javascript}/>
-              <img alt="react" src={react} />
-              <img alt="pyton" src={python}/>
-              <img alt="mysql" src={mysql}/> 
-              <img alt="sass" src={sass} />
-              <img alt="figma" src={figmatwo}/>
-          </div>
+          <p>As a front-end software engineer, I am passionate about creating immersive websites and apps that flawlessly blend form with function. My ever growing coding toolkit currently consists of HTML, CSS, JavaScript, React, Python, MySQL, Sass, and Figma. My passion for creating creative and exciting projects, drives me to continually explore new technologies and best practices for web development. </p>
+          <Techgrid />
         </div>
     </section>
   )

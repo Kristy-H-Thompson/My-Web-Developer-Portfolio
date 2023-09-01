@@ -1,8 +1,14 @@
 import React from 'react'
+import {Footer, Nav} from '../../containers';
+
 
 const Straypawspage = () => {
   return (
-    <div>Straypawspage</div>
+    <>
+    <Nav />
+    <h2>Straypaws</h2>
+    <Footer />
+    </>
   )
 }
 
