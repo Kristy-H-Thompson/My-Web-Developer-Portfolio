@@ -1,20 +1,20 @@
-.projectDetails ul {
+.projectRequirements ul {
     list-style-type: none;
     margin-left:0px;
 }
 
-.projectDetails {
+.projectRequirements {
 display:block grid;
-    grid-template-columns: 2.2fr 1fr;
+    grid-template-columns:  1fr 2.2fr;
     margin:2rem;
 }
 
-.details{
+.requirements{
     display:inline;
     width:80%;
 }
 
-.details-image img {
+.requirements-image img {
     aspect-ratio: 1/1;
     display:inline;
     justify-self: center;
@@ -26,20 +26,20 @@ display:block grid;
 
 @media (max-width:900px) {
 
-    .projectDetails{
+    .projectRequirements{
         grid-template-columns: 1fr;
         margin-inline: 2rem;
         margin-right:0rem;
     }
 
-    .details-image img {
+    .requirements-image img {
         margin:0px;
         max-width:280px;
         min-width:150px;
         place-self: center;
     }
 
-    .details{
+    .requirements{
         width:100%;
     }
 

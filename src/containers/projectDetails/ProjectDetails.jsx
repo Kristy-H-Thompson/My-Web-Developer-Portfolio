@@ -19,7 +19,7 @@ const ProjectDetails = (props) => {
         </div>
 
         <div className="details-image">
-            <img src={props.projectImage} alt={props.projectName}/>
+            <img src={props.projectImage} alt={props.projectImageName}/>
         </div>
     </section>
   )

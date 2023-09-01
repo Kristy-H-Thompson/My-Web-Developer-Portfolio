@@ -5,4 +5,5 @@ export {default as Header } from './header/Header';
 export {default as Nav } from './nav/Nav.jsx';
 export {default as Projects } from './projects/Projects';
 export {default as Projectdetails } from './projectDetails/ProjectDetails';
+export {default as Projectrequirements } from './projectRequirements/ProjectRequirements';
 export {default as Projectoverview } from './projectOverview/ProjectOverview';
