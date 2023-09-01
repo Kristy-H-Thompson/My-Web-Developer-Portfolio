@@ -21,8 +21,8 @@
 }
 
 .tech-grid img:hover {
-  box-shadow: 10 10 10px var(--purple-dark);
-  text-shadow: 10 10 10px var(--purple-dark);
+  box-shadow: 0 0 10px var(--purple-dark);
+  text-shadow: 0 0 10px var(--purple-dark);
 }
 
 
