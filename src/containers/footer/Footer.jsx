@@ -1,6 +1,7 @@
 import React from 'react'
 import {mylogo} from '../../assets'
 import {DividerTop, Toggle} from '../../components';
+import {Link } from "react-router-dom";
 import './footer.css';
 
 
