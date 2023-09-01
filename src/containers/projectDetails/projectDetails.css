@@ -24,6 +24,10 @@ display:block grid;
     width:100%;
 }
 
+.projectList ul {
+    list-style-type:inside important!;
+}
+
 @media (max-width:900px) {
 
     .projectDetails{

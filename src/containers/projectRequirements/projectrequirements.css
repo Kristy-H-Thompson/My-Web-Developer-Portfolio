@@ -33,10 +33,7 @@ display:block grid;
     }
 
     .requirements-image img {
-        margin:0px;
-        max-width:280px;
-        min-width:150px;
-        place-self: center;
+        display:none;
     }
 
     .requirements{

@@ -73,6 +73,10 @@ article .header-img{
     justify-content: space-evenly;
 }
 
+.projectList ul {
+    list-style-type:inside important!;
+}
+
 @media (max-width:1154px) {
     .button-grid{
         grid-template-columns: 1fr 1fr;
