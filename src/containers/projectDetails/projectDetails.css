@@ -24,7 +24,7 @@ display:block grid;
     width:100%;
 }
 
-.projectList ul {
+.projectList {
     list-style-type:inside important!;
 }
 

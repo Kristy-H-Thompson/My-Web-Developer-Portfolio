@@ -5,7 +5,7 @@
 
 .projectRequirements {
 display:block grid;
-    grid-template-columns:  1fr 2.2fr;
+    grid-template-columns:  1fr 1.5fr;
     margin:2rem;
 }
 
