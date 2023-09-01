@@ -1,5 +1,5 @@
 import React from 'react'
-import './projectReqirements.css'
+import './projectreqirements.css'
 
 const ProjectRequirements = () => {
   return (
