@@ -23,7 +23,7 @@ display:block grid;
     width:100%;
 }
 
-@media (max-width:850px) {
+@media (max-width:900px) {
 
     .projectDetails{
         grid-template-columns: 1fr;
@@ -31,7 +31,7 @@ display:block grid;
         margin-right:0rem;
     }
 
-    .deatils-image img{
+    .details-image img {
         margin:0px;
         max-width:280px;
         min-width:150px;
