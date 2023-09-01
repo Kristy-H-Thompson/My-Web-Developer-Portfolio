@@ -9,13 +9,12 @@ const ProjectDetails = (props) => {
         <div className="details">
         <h2>Project Details</h2>
         <hr />
-        <ul id="detailsUl">
-            <li><b>Project Client:</b> {props.projectClient}</li>
-            <li><b>Project Team:</b> {props.projectTeam}</li>
-            <li><b>Project Timeline:</b> {props.projectTimeline}</li>
+        <div>
+            <p><b>Project Client:</b> {props.projectClient}</p>
+            <p><b>Project Team:</b> {props.projectTeam}</p>
+            <p><b>Project Timeline:</b> {props.projectTimeline}</p>
             <br/>
             {props.children}
-        </ul>
         </div>
 
         <div className="details-image">
