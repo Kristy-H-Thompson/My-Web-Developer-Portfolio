@@ -47,6 +47,11 @@
   text-shadow: 0 0 5px var(--purple-dark);
 }
 
+ul {
+    font-size:1rem;
+    margin-left:0px;
+}
+
 @media (max-width:850px) {
 
     .about{
