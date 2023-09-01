@@ -9,7 +9,7 @@ const Nav = () => {
 	<>
     <nav id="navBar">
          
-        <a className="first_link" href="#home"><img alt="My icon" className="my-icon" src={mylogo} /></a>
+    <Link className="first_link" to="/straypaws"><img alt="My icon" className="my-icon" src={mylogo} /></Link>
 
     		<ul id="menu">    
       			<li><a href="#projects">Projects</a></li>
