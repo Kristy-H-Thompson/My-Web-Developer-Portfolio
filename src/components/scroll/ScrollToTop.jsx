@@ -1,4 +1,3 @@
-import React from 'react'
 
 const scrollToTop = () => {
     window.scrollTo(0, 0)
