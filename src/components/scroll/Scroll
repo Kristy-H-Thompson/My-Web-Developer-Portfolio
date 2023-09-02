@@ -1,3 +1,5 @@
+import React from 'react'
+
 class ScrollToTop extends Component {
     componentDidUpdate(prevProps) {
       const { location } = this.props;
