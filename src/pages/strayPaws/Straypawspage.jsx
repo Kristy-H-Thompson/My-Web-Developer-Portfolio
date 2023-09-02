@@ -18,7 +18,7 @@ const Straypawspage = () => {
     <Projectdetails projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month" projectImage={laptop} projectImageName="laptop" >   
       <p><b>Software & Technology Used:</b> </p>
       <ul className="projectList">
-        <li><b>Figma:</b> used to create UI design with client</li>
+        <li><b>Figma:</b> used to create UI design for client</li>
         <li><b>Shelteruv API:</b> shelter's api for animal information</li>
         <li><b>MYSQL:</b> used to store data for the website</li>
         <li><b>Python Anywhere:</b> used to host the website</li>
@@ -61,7 +61,7 @@ const Straypawspage = () => {
       <br/>
       <p><b>Other Project Features:</b></p> 
       <ul className="projectList">
-        <li>google calander integration</li>
+        <li>google calendar integration</li>
         <li>filters and search bar for pets</li>
         <li>featured pets photo slider</li>
         <li>social media links</li>

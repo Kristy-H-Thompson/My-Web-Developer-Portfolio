@@ -1,0 +1,11 @@
+.introduction{
+    display:inline;
+    width:80%;
+}
+
+@media (max-width:850px) {
+
+    .introduction {
+        width:100%;
+    }
+}

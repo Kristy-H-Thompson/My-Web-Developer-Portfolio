@@ -4,11 +4,6 @@
     margin:2rem;
 }
 
-.introduction{
-    display:inline;
-    width:80%;
-}
-
 .laptop {
     aspect-ratio: 1/1;
     display:inline;
@@ -41,10 +36,6 @@ ul {
         max-width:280px;
         min-width:150px;
         place-self: center;
-    }
-
-    .introduction{
-        width:100%;
     }
 
     .tech-grid{
