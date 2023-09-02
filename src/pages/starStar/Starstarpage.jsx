@@ -9,7 +9,7 @@ const Starstarpage = () => {
     <>
     <Nav />
 
-    <Projectoverview projectName="Starstar" projectType="A custom discord bot commission" projectImage={starstar} projectGithub="" projectWebsite=""> 
+    <Projectoverview projectName="Starstar" projectType="A custom discord bot commission" projectImage={starstar} projectGithub="https://github.com/Kristy-H-Thompson/Starstar-Website" projectWebsite="https://starstarbot.netlify.app/"> 
       As a custom discord bot commission from a roleplaying website, Starstar represents the site's mascot. She helps with server entertainment — games and sarcastic remarks — as well as utility functions: tracking points in the shop; adding and managing character information; creating topics and tracking posts.
     </Projectoverview>
 

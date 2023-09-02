@@ -45,8 +45,8 @@ const Projects = () => {
 
             <div className="project-links">
             <Link to="/starstar" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://github.com/Kristy-H-Thompson" target="_blank">Website</Button>
+            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/Starstar-Website" target="_blank">Github</Button>
+            <Button img={website} alt="Website" type='button'  link="https://starstarbot.netlify.app/" target="_blank">Website</Button>
             </div>
 
             <Link to="/starstar" onClick={Scroll}><img alt="Starstar" className="mobile--project-img" src={starstar} /></Link>
