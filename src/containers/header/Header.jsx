@@ -17,7 +17,7 @@ const Header = () => {
             </div>
             <div className="header">
                 <h1>Kristy Thompson</h1>
-                <div className="title">Front End Software Engineer</div>
+                <div className="title">Full Stack Software Engineer</div>
                 <hr/>
                 <p>As a former teacher turned web developer, I bring a unique set of skills and experiences to each of my web development projects. My background in education has taught me the importance of user-centered designs, collaboration with colleagues, clear communication with clients, and intuitive designs. My philosophy is that a well-designed website should not only teach users about a product or company, but spark their curiosity.</p>
                 <h4>Check out my: </h4>
