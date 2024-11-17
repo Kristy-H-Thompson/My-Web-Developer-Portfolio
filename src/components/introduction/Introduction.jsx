@@ -4,22 +4,22 @@ import './introduction.css';
 
 const Introduction = () => {
   return (
-    <div className="introduction">
-    <h2>Who am I?</h2>
-    <hr />
-    <p>If you made it this far into my portfolio, you are probably curious about the person behind all of this code. 
-    <b> I am Kristy Thompson, a former teacher turned web developer.</b> 
-    My journey into the world of coding started as a creative endeavor with a group of close online friends. 
-    We would devise an idea for a project, research how to make it happen, tackle coding challenges as a team, and joyously share the projects we created with others. This collaborative spirit remains one of my favorite aspects of coding even to this day. I believe an individual's skills in coding are important, but working collaboratively with your team is just as essential to the success of a project. What began as a hobby has resulted in a genuine passion for learning new technologies, writing code, and building projects.</p>
-    <p>More recently, I have begun attenting the university of Denver's Coding bootcamp to further my coding knowledge. </p>
-      <p>Outside of coding I also enjoy: </p>
-    <ul>
-      <li>hiking with my three rescue dogs</li>
-      <li>reading every and any book I can get my hands on</li>
-      <li>traveling to new places with friends</li>
-      <li>and photographing my adventures</li>
-    </ul>
-    </div>
+<div className="introduction">
+  <h2>Who Am I?</h2>
+  <hr />
+  <p>If you've made it this far into my portfolio, you're probably wondering who the person behind all this code is. 
+    <b> I’m Kristy Thompson, a former teacher turned passionate web developer. </b>
+     My journey into coding started in a creative, collaborative environment with a group of close friends online. Together, we would brainstorm project ideas, research solutions, and tackle coding challenges as a team. The sense of accomplishment when we shared our completed projects was exhilarating, and that spirit of collaboration continues to drive my love for coding today. I’ve come to realize that while individual coding skills are essential, the ability to work effectively with a team is equally important for the success of any project.
+  </p>
+  <p>What began as a hobby has since blossomed into a genuine passion for web development. I’ve dedicated myself to learning new technologies, refining my coding skills, and continuously building exciting, functional projects. To deepen my expertise and accelerate my growth, I recently enrolled in the University of Denver’s Coding Bootcamp. This intensive, hands-on program has provided me with the tools and knowledge I need to tackle real-world development challenges and continue my growth as a full-stack developer.</p>
+  <p>When I'm not coding, you can find me enjoying the outdoors, reading, exploring new places, and capturing memories through photography. Here’s a glimpse into some of my favorite activities:</p>
+  <ul>
+    <li>Hiking with my three rescue dogs</li>
+    <li>Reading books across all genres</li>
+    <li>Traveling to new destinations with friends</li>
+    <li>Photographing my adventures</li>
+  </ul>
+</div>
   )
 }
 

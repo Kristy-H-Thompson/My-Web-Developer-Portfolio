@@ -1,46 +1,48 @@
 .about {
-    display:block grid;
-    grid-template-columns: 2.2fr 1fr;
-    margin:2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
 }
 
 .laptop {
-    aspect-ratio: 1/1;
-    display:inline;
-    float:right;
-    margin-top:15%;
-    min-width:300px;
-    width:100%;
+    width: 100%;
+    max-width: 350px; /* Max width for larger screens */
+    aspect-ratio: 1/1; /* Keep the image square */
+    margin-top: 2rem;
+    align-self: flex-start; /* Align laptop to the top */
 }
 
 .tech {
-    grid-column: span 2;
+    flex: 1 1 50%; /* Take up 50% of the space on larger screens */
+    font-size: 1rem;
+    margin-top: 2rem; /* Add more space between the laptop and the text */
+    padding-top: 1rem; /* Optional: adds padding for more breathing room */
 }
-
 
 ul {
-    font-size:1rem;
-    margin-left:0px;
+    font-size: 1rem;
+    margin-left: 0;
 }
 
-@media (max-width:850px) {
-
-    .about{
-        grid-template-columns: 1fr;
+/* For smaller screens */
+@media (max-width: 850px) {
+    .about {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: center; /* Center-align the items */
         margin-inline: 2rem;
-        margin-right:0rem;
     }
 
-    .laptop{
-        margin:0px;
-        max-width:280px;
-        min-width:150px;
-        place-self: center;
+    .laptop {
+        max-width: 280px; /* Limit image size */
+        min-width: 150px; /* Allow the image to shrink but not go below 150px */
+        margin: 0 auto; /* Center the image horizontally */
     }
 
-    .tech-grid{
-        grid-template-columns: 1fr 1fr 1fr;
-    }    
-
-
+    .tech {
+        flex: 1 1 100%; /* Take full width of the container */
+        font-size: 0.9rem;
+        margin-top: 2rem; /* Add more space between image and text */
+        padding-top: 1rem; /* Optional: extra padding on top for better spacing */
+    }
 }
