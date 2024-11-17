@@ -17,8 +17,9 @@ const About = () => {
         <div className="tech"> 
           <h2>What do I do?</h2>
           <hr />
-          <p>As a full stack software engineer, I am passionate about creating immersive websites and apps that flawlessly blend form with function. My ever growing coding toolkit currently consists of HTML, CSS, JavaScript, React, Python, MySQL, Sass, Figma, Tailwind CSS, PhP. My passion for creating creative and exciting projects, drives me to continually explore new technologies and best practices for web development. </p>
-          <Techgrid />
+          <p>
+          As a full stack software engineer, I am passionate about creating immersive websites and apps that seamlessly blend form with function. My ever-growing toolkit now includes a variety of technologies, such as HTML, CSS, JavaScript, React, Node.js, TypeScript, Python, MySQL, Sass, Figma, Tailwind CSS, and PHP. I am driven by a love for building innovative and impactful projects, constantly exploring new technologies, tools, and best practices to deliver high-quality, scalable solutions in web development.
+          </p>          
         </div>
     </section>
   )
