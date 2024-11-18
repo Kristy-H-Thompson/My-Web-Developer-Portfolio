@@ -66,15 +66,19 @@ header {
     
   }
 
-.button-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  .button-grid {
+    display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; /* Allow buttons to wrap to the next row */
+    gap: 1rem; /* Space between buttons */
+    margin-top: 2rem;
 }
 
 @media (max-width:1154px) {
-    .button-grid{
-        grid-template-columns: 1fr 1fr;
+    .button-grid {
+        justify-content: center; /* Center buttons on medium screens */
+        gap: 0.8rem; /* Smaller gap between buttons */
     }
 
     .button-container{
@@ -101,10 +105,6 @@ h1 {
         display:none;
     }
 
-    .button-container {
-        width:5rem;
-    }
-
     .button-container button{
         padding:.3rem;
     }
@@ -113,17 +113,14 @@ h1 {
         margin-top:.5rem;
     }
 
-    .button-grid{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+      .button-grid {
+        flex-direction: column;
+        gap: .5rem; /* Add space between vertically stacked buttons */
+        width: 100%;
     }
+
 
     .title {
         font-size: 1.5rem;
-    }
-}
-
-@media (max-width:575px) {
-    .button-grid{
-        grid-template-columns: 1fr 1fr;
     }
 }

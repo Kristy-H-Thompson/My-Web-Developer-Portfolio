@@ -1,99 +1,101 @@
 .button-container {
-    border: 1px solid var(--orange);    
-    border-radius: 8px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    font-weight: 150;
-    height: 50px;    
-    letter-spacing: 1px;
-    margin-left: 0px;
-    margin-right: auto;
-    margin-top:.5rem;
-    overflow: hidden;    
-    position: relative;
-    transition: 0.5s;
-    width:8rem;
+  border: 1px solid var(--orange);    
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-weight: bold; /* Changed font-weight to bold */
+  height: 50px;    
+  letter-spacing: 1px;
+  margin-left: 0px;
+  margin-right: auto;
+  margin-top: .5rem;
+  overflow: hidden;    
+  position: relative;
+  transition: 0.5s;
 }
 
-.dark .button-container button{
-  color: var(--white);
+.button-container:hover {
+border: 3px solid var(--orange);
+}
+
+.dark .button-container button {
+color: var(--white);
 }
 
 .button-container button {
-  height: 100%;
-  font-weight: bold; /* Bold font for better visibility */
-  letter-spacing: 1px;
-  background: var(--orange);
-  border: none;
-  color: var(--white); /* Black text by default */
-  display: inline;
-  cursor: pointer;
-  padding: 1rem;
-  -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
-  mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
-  -webkit-mask-size: 7100% 100%;
-  mask-size: 7100% 100%;
-  -webkit-animation: ani2 0.7s steps(70) forwards;
-  animation: ani2 0.7s steps(70) forwards;
-  width: 100%;
-  text-align: center;
-  font-size: 1rem; /* Adjusted text size */
-  text-transform: uppercase; /* Make text uppercase for a more polished look */
-  position: relative;
-  transition: all 0.3s ease-in-out;
+height: 100%;
+font-weight: bold; 
+letter-spacing: 1px;
+background: var(--orange);
+border: none;
+color: var(--white); 
+display: inline;
+cursor: pointer;
+padding: 1rem;
+-webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+-webkit-mask-size: 7100% 100%;
+mask-size: 7100% 100%;
+-webkit-animation: ani2 0.7s steps(70) forwards;
+animation: ani2 0.7s steps(70) forwards;
+width: 100%;
+text-align: center;
+font-size: 1rem;
+text-transform: uppercase; 
+position: relative;
+transition: all 0.3s ease-in-out;
 }
+
 .button-container button:hover {
-    -webkit-animation: ani 0.7s steps(70) forwards;
-    animation: ani 0.7s steps(70) forwards;
-    padding:.5rem;
-    padding-left:1rem;
+  -webkit-animation: ani 0.7s steps(70) forwards;
+  animation: ani 0.7s steps(70) forwards;
+  padding: .5rem;
+  padding-left: 1rem;
+  color: var(--orange); /* Change text color on hover for contrast */
 }
 
 .button-container span {
-    position: absolute;
-    color: var(--black);
-    text-align: center;
-    font-weight: 100;
-    font-size:1rem;
-    position: absolute;
-    letter-spacing: 1px;
-    margin-top: 17px;
-    overflow: hidden;
-    font-weight: bold;
+  position: absolute;
+  color: var(--black); /* Ensure the span text is visible */
+  text-align: center;
+  font-weight: bold; /* Removed duplicate font-weight */
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-top: 17px;
+  width: 100%;
 }
 
-  .button-hover {
-    width: 15px;
-    height: 10px;
-    position: absolute;
-    transform: translateX(60px);
-    opacity: 0;
-    -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
-    transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
-    margin: 0;
-    padding: 5px 5px;
-  }
-  
-  a.button-image:hover img {
-    aspect-ratio: 1/1;
-    height:40px;
-    width: 40px;
-    opacity: 1;
-    transform: translateX(60px);
-  }
+.button-hover {
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  transform: translateX(60px);
+  opacity: 0;
+  -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
+  transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
+  margin: 0;
+  padding: 5px 5px;
+}
 
-.button-container span img{
-    display:inline;
-    float:left;
-    height:30px;
-    margin-left:.5rem;
-    margin-right:.5rem;
-    max-height:100%;
-  }
+a.button-image:hover img {
+  aspect-ratio: 1/1;
+  height: 40px;
+  width: 40px;
+  opacity: 1;
+  transform: translateX(60px);
+}
+
+.button-container span img {
+  display: inline;
+  float: left;
+  height: 30px;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  max-height: 100%;
+}
 
 .button-container span {
-    color:var(--black);
-    font-size:1.2rem;
-    justify-content: center;
-    padding:0px;
+  color: var(--black); /* Ensuring the color stays consistent */
+  font-size: 1.2rem;
+  justify-content: center;
+  padding: 0px;
 }
-  
