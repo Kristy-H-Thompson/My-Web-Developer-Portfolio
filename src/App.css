@@ -152,9 +152,9 @@ li p{
     letter-spacing: 1px;
   }
 
-.dark a {
-    color:var(--black);
-}
+  .dark a {
+        color: var(--black);
+  }
 
 .my-icon{
     aspect-ratio: 1/1;

@@ -21,6 +21,13 @@ export const send = require('./send.png');
 export const starstar = require('./starStarLogo.png');
 export const strayPaws = require('./strayPawsLogo.png');
 export const website = require('./web.png');
+export const staffSyncIcon = require('./staffSyncIcon.png');
+export const skyWatchericon = require('./skyWatcherIcon.png');
+export const wheels = require('./wheels.png');
+export const travelIcon = require('./travelIcon.png');
+
+
+
 
 
 
