@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import{Home, Nopage, Starstarpage, Straypawspage} from './pages'
+import{Home, Nopage, StaffSyncPage, Starstarpage, Straypawspage} from './pages'
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/starstar" element={<Starstarpage />} />
         <Route path="/straypaws" element={<Straypawspage />} />
+        <Route path="/staffsync" element={<StaffSyncPage />} />
         <Route path="*" element={<Nopage />} />
       </Routes>
     </div>
