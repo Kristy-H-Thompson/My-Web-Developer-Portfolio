@@ -11,7 +11,6 @@ const ProjectDetails = (props) => {
         <hr />
             <p><b>Project Client:</b> {props.projectClient}</p>
             <p><b>Project Team:</b> {props.projectTeam}</p>
-            <p><b>Project Timeline:</b> {props.projectTimeline}</p>
             <br/>
             {props.children}
         </div>

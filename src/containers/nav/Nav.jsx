@@ -14,9 +14,11 @@ const Nav = () => {
     <Link className="first_link" to="/" onClick={Scroll}><img alt="My icon" className="my-icon" src={mylogo} /></Link>
 
     		<ul id="menu">    
-      			<li><a href="#projects">Projects</a></li>
-      			<li><a href="#about">About</a></li>
+      			<li><a href="#about">About Me</a></li>      			
+            <li><a href="#projects">Portfolio</a></li>
       			<li><a href="#contact">Contact</a></li> 
+            <li><a href="#contact">Resume</a></li> 
+
     		</ul>
 			
   		<div id="menuToggle" className="handle"> 
