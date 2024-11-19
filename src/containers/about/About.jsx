@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css';
 import {about} from '../../assets'
-import {Intro, Techgrid} from '../../components'
+import {Intro} from '../../components'
 
 const About = () => {
   return (
