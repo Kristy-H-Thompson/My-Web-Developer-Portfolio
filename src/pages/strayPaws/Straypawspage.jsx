@@ -15,7 +15,7 @@ const Straypawspage = () => {
         Stray Paws Rescue is a foster-based rescue located in Missouri. While transitioning their software solution from Rescue Groups to Shelterluv, they recognized a need for additional assistance. My team and I built them a new website that uses a Flask backend to create a flexible modular page design and API calls to load their adoptable animals in real time.
     </Projectoverview>
 
-    <Projectdetails projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectTimeline="One month" projectImage={laptop} projectImageName="laptop" >   
+    <Projectdetails projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectImage={laptop} projectImageName="laptop" >   
       <p><b>Software & Technology Used:</b> </p>
       <ul className="projectList">
         <li><b>Figma:</b> used to create UI design for client</li>
@@ -28,44 +28,30 @@ const Straypawspage = () => {
       </ul>
 
       <br/>
-      <p><b>Main Project Goals:</b></p>
-      <ul className="projectList">
-        <li>assist the rescue in transitioning their data from Rescue Groups to Shelterluv</li>
-        <li>build an updated website UI based on an agreed upon figma design</li>
-        <li>find a cost effective platform to host the rescue's new website</li>
-        <li>use Shelterluv's api to display their adoptable animals in real time</li>
-        <li>transition the rescues domain name over to new website</li>
-        <li>complete new website before Rescue Groups ended their agreement</li>
-      </ul>
+
     </Projectdetails>
 
     <Projectrequirements projectImage={laptop} projectImageName="laptop">   
-  
-      <p><b>Project Pages:</b></p> 
+        <p><b>User Story:</b></p>
+      <p>As a rescue administrator, I want to migrate our animal adoption data from Rescue Groups to Shelterluv, so that we can manage our animals and adoptions through the Shelterluv platform without losing any important information.</p>
+      <p><i>Acceptance Criteria:</i></p>
       <ul className="projectList">
-        <li>home </li>
-        <li>about us</li>
-        <li>contact information</li>
-        <li>news and events</li>
-        <li>adoption information</li>
-        <li>sponsorship information</li>
-        <li>donations</li>
-        <li>forms</li>
-        <li>featured animals</li>
-        <li>dogs for adoption</li>
-        <li>cats for adoption</li>
-        <li>fosters</li>
-        <li>photo gallery</li>
+        <li>A full data export from Rescue Groups is obtained, including animals, adoption applications, and donor records.</li>
+        <li>The exported data is mapped and formatted for import into Shelterluv (using CSV, XML, or a compatible format). </li> 
+        <li>Shelterluv's import tool or API is used to successfully import the data into the Shelterluv system.</li> 
+        <li>All animal listings (names, breeds, ages, photos, descriptions, etc.) are correctly transferred to Shelterluv and displayed on the platform.</li>
+        <li>The adoption applications, donation records, and volunteer data (if applicable) are successfully transferred to Shelterluv and are accessible by the rescue.</li>
+        <li>The data transfer process is tested, and any discrepancies or issues are identified and resolved.</li>
       </ul>
 
-      <br/>
-      <p><b>Other Project Features:</b></p> 
+      <p><b>User Story:</b></p>
+      <p>As a rescue website user, I want a visually appealing and user-friendly website that reflects our mission, makes it easy to view adoptable animals, donate, and get involved, based on the agreed Figma design, so that our visitors can easily engage with the rescue.</p>
+      <p><i>Acceptance Criteria:</i></p>
       <ul className="projectList">
-        <li>google calendar integration</li>
-        <li>filters and search bar for pets</li>
-        <li>featured pets photo slider</li>
-        <li>social media links</li>
-        <li>donation iframe</li>
+        <li>The website UI is built based on the final approved Figma design, ensuring that all layout elements, colors, typography, and branding are accurately reflected.</li>
+        <li>The website includes key features such as a homepage, animal listings, donation page, volunteer opportunities, and contact information.</li> 
+        <li>Key calls to action (adopt, donate, volunteer) are prominently displayed and easy to navigate.</li> 
+        <li>The website UI is tested for usability, ensuring users can easily find and interact with adoptable animals and other important content.</li>
       </ul>
     </Projectrequirements>
 

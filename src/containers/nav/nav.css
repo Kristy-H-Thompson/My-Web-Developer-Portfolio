@@ -68,9 +68,9 @@ nav .handle {
     margin-block: .5rem;
     margin-left: .5rem;
     margin-right:.5rem;
-    margin-top:0rem;
+    margin-top:2rem;
     padding:25px;
-    width:70px;
+    width:60px;
 }
 
 #pushback{
@@ -89,7 +89,7 @@ nav .handle {
     }
 
     nav li{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-block: .2rem ;
 }
 
@@ -100,7 +100,7 @@ nav .handle {
 }
 
 
-@media (max-width:500px) {
+@media (max-width:600px) {
 
     nav li{
     font-size: .9rem;

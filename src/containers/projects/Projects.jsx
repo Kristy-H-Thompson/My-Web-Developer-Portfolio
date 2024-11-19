@@ -42,15 +42,15 @@ const Projects = () => {
             <p>A command-line application to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.</p>
             
             <div className="project-links">
-            <Link to="/straypaws" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
+            <Link to="/staffsync" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/staffSync" target="_blank">Github</Button>
-            <Button img={website} alt="Demo" type='button'  link="https://www.straypawsrescue.com/" target="_blank">Demo</Button>
+            <Button img={website} alt="Demo" type='button'  link="https://drive.google.com/file/d/1P4EtECP367esbrNcRkglSNNc58tUQ7KN/view?usp=sharing" target="_blank">Demo</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="StrayPaws" className="mobile--project-img" src={staffSyncIcon} /></Link>
+            <Link to="/staffsync" onClick={Scroll}><img alt="StrayPaws" className="mobile--project-img" src={staffSyncIcon} /></Link>
         </div>
         <div className="projects-img--container"> 
-            <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- staffSync" src={staffSyncIcon} /></Link>
+            <Link to="/staffsync" onClick={Scroll}><img className="projects-img" alt="project 1 -- staffSync" src={staffSyncIcon} /></Link>
         </div>
 
 

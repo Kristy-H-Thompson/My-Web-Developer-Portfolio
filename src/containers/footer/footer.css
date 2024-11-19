@@ -26,7 +26,7 @@ footer li{
 
 footer a:hover{
     color:var(--purple-light);
-
+    text-decoration: underline wavy;
 }
 
 .footer-icon{
