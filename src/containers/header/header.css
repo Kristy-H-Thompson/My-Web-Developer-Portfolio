@@ -114,8 +114,7 @@ h1 {
     }
 
       .button-grid {
-        flex-direction: column;
-        gap: .5rem; /* Add space between vertically stacked buttons */
+        gap: .8rem; /* Add space between vertically stacked buttons */
         width: 100%;
     }
 
