@@ -1,101 +1,113 @@
 .button-container {
-  border: 1px solid var(--orange);    
-  border-radius: 8px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  font-weight: bold; /* Changed font-weight to bold */
-  height: 50px;    
-  letter-spacing: 1px;
-  margin-left: 0px;
-  margin-right: auto;
-  margin-top: .5rem;
-  overflow: hidden;    
-  position: relative;
-  transition: 0.5s;
-}
-
-.button-container:hover {
-border: 3px solid var(--orange);
-}
-
-.dark .button-container button {
-color: var(--white);
+    border: 1px solid var(--orange);    
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-weight: 150;
+    height: 50px;    
+    letter-spacing: 1px;
+    margin-left: 0px;
+    margin-right: auto;
+    overflow: hidden;    
+    position: relative;
+    transition: 0.5s;
+    width:8rem;
 }
 
 .button-container button {
-height: 100%;
-font-weight: bold; 
-letter-spacing: 1px;
-background: var(--orange);
-border: none;
-color: var(--white); 
-display: inline;
-cursor: pointer;
-padding: 1rem;
--webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
--webkit-mask-size: 7100% 100%;
-mask-size: 7100% 100%;
--webkit-animation: ani2 0.7s steps(70) forwards;
-animation: ani2 0.7s steps(70) forwards;
-width: 100%;
-text-align: center;
-font-size: 1rem;
-text-transform: uppercase; 
-position: relative;
-transition: all 0.3s ease-in-out;
+  height: 100%;
+  font-weight: 550; /* Bold but not too heavy */
+  letter-spacing: 2px; /* Increase letter spacing for a cleaner look */
+  font-family: 'Roboto', sans-serif; /* Use a modern, sans-serif font */
+  font-size: 1rem; /* Slightly larger font size */
+  display: inline-flex; /* Use flex for centering the text */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 1rem 2rem; /* Add more padding for a better clickable area */
+  background: var(--orange);
+  -webkit-mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+  mask: url("https://raw.githubusercontent.com/pizza3/asset/master/natureSmaller.png");
+  -webkit-mask-size: 7100% 100%;
+  mask-size: 7100% 100%;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(70) forwards;
+  animation: ani2 0.7s steps(70) forwards;
+  width: 100%;
+  text-transform: uppercase; /* Capitalize text for a strong, uniform appearance */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
 }
 
 .button-container button:hover {
-  -webkit-animation: ani 0.7s steps(70) forwards;
-  animation: ani 0.7s steps(70) forwards;
-  padding: .5rem;
-  padding-left: 1rem;
-  color: var(--orange); /* Change text color on hover for contrast */
+    -webkit-animation: ani 0.7s steps(70) forwards;
+    animation: ani 0.7s steps(70) forwards;
+    padding:.5rem;
+    padding-left:1rem;
 }
 
 .button-container span {
-  position: absolute;
-  color: var(--black); /* Ensure the span text is visible */
-  text-align: center;
-  font-weight: bold; /* Removed duplicate font-weight */
-  font-size: 1rem;
-  letter-spacing: 1px;
-  margin-top: 17px;
-  width: 100%;
+    position: absolute;
+    color: var(--black);
+    text-align: center;
+    font-weight: 100;
+    font-size:1rem;
+    position: absolute;
+    letter-spacing: 1px;
+    margin-top: 17px;
+    overflow: hidden;
+    font-weight: bold;
 }
 
-.button-hover {
-  width: 15px;
-  height: 10px;
-  position: absolute;
-  transform: translateX(60px);
-  opacity: 0;
-  -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
-  transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
-  margin: 0;
-  padding: 5px 5px;
-}
+  .button-hover {
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    transform: translateX(60px);
+    opacity: 0;
+    -webkit-transition: all .25s cubic-bezier(.14, .59, 1, 1.01);
+    transition: all .15s cubic-bezier(.14, .59, 1, 1.01);
+    margin: 0;
+    padding: 5px 5px;
+  }
+  
+  a.button-image:hover img {
+    aspect-ratio: 1/1;
+    height:40px;
+    width: 40px;
+    opacity: 1;
+    transform: translateX(60px);
+  }
 
-a.button-image:hover img {
-  aspect-ratio: 1/1;
-  height: 40px;
-  width: 40px;
-  opacity: 1;
-  transform: translateX(60px);
-}
-
-.button-container span img {
-  display: inline;
-  float: left;
-  height: 30px;
-  margin-left: .5rem;
-  margin-right: .5rem;
-  max-height: 100%;
-}
+.button-container span img{
+    display:inline;
+    float:left;
+    height:30px;
+    margin-left:.5rem;
+    margin-right:.5rem;
+    max-height:100%;
+  }
 
 .button-container span {
-  color: var(--black); /* Ensuring the color stays consistent */
-  font-size: 1.2rem;
-  justify-content: center;
-  padding: 0px;
+    color:var(--black);
+    font-size:1.2rem;
+    justify-content: center;
+    padding:0px;
+}
+  
+
+@media (max-width:770px) {
+  .button-container button{
+    font-size: .7rem;
+  }
+
+  .button-container span img{
+    display:none;
+  }
+
+  .button-container span {
+    font-size: .9rem;
+    margin-left:.2rem;
+    margin-right:auto;
+  }
+
 }

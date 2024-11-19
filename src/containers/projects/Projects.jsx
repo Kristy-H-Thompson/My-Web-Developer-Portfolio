@@ -86,7 +86,7 @@ const Projects = () => {
             <Button img={website} alt="Website" type='button'  link="https://skywatchers.onrender.com" target="_blank">Website</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={strayPaws} /></Link>
+            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={skyWatchericon} /></Link>
         </div>
         <div className="projects-img--container"> 
             <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={skyWatchericon} /></Link>
@@ -106,7 +106,7 @@ const Projects = () => {
             <Button img={website} alt="Demo" type='button'  link="https://drive.google.com/file/d/1t2L3VrBXGz5nxgKhuuznc4mOqo3v8aFH/view?usp=sharing" target="_blank">Demo</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={strayPaws} /></Link>
+            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={wheels} /></Link>
         </div>
         <div className="projects-img--container"> 
             <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={wheels} /></Link>
@@ -125,7 +125,7 @@ const Projects = () => {
             <Button img={website} alt="Website" type='button'  link="https://kristy-h-thompson.github.io/Trip-Mosaic/trip.htmlg" target="_blank">Website</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={strayPaws} /></Link>
+            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={travelIcon} /></Link>
         </div>
         <div className="projects-img--container"> 
             <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={travelIcon} /></Link>
