@@ -83,7 +83,7 @@ const Projects = () => {
             <div className="project-links">
             <Link to="/skywatchers" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/skyWatchers" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://skywatchers.onrender.com/" target="_blank">Website</Button>
+            <Button img={website} alt="Website" type='button'  link="https://skywatchers.onrender.com" target="_blank">Website</Button>
             </div>
 
             <Link to="/skywatchers" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={skyWatchericon} /></Link>
