@@ -18,13 +18,13 @@ const Straypawspage = () => {
     <Projectdetails projectClient="Stray Paws Rescue" projectTeam="Myself and Jessica Teichman" projectImage={laptop} projectImageName="laptop" >   
       <p><b>Software & Technology Used:</b> </p>
       <ul className="projectList">
-        <li><b>Figma:</b> used to create UI design for client</li>
-        <li><b>Shelteruv API:</b> shelter's api for animal information</li>
-        <li><b>MYSQL:</b> used to store data for the website</li>
-        <li><b>Python Anywhere:</b> used to host the website</li>
-        <li><b>Python:</b> back-end logic</li>
-        <li><b>Flask: </b>used to create a flexible modular page designs</li>
-        <li><b>HTML/CSS:</b> used to build and style pages</li>
+        <li><b>Figma:</b> Used for designing the user interface (UI) for the client, creating wireframes and mockups to visualize the website's layout and user experience</li>
+        <li><b>Shelteruv API:</b> Utilized to fetch and display animal information from the shelter's database, providing real-time data for the website.</li>
+        <li><b>MYSQL:</b> Used as the database management system to store and manage data for the website, including user information and animal records.</li>
+        <li><b>Python Anywhere:</b> The hosting platform for the website, enabling deployment and running of the web application in a cloud environment.</li>
+        <li><b>Python:</b> Used for writing the back-end logic, handling server-side functionality, and processing requests between the front-end and database.</li>
+        <li><b>Flask: </b>: A lightweight Python web framework used to build flexible and modular page designs, enabling smooth routing and dynamic content rendering.</li>
+        <li><b>HTML/CSS:</b>Used to structure and style the web pages, ensuring a responsive and visually appealing front-end design.</li>
       </ul>
 
       <br/>

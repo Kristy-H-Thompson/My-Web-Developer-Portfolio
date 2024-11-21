@@ -16,7 +16,11 @@
 
 @media (max-width:770px) {
     .contactGrid{
-    grid-template-columns: .8fr 1fr;
+    grid-template-columns: 1fr;
+    }
+
+    .contact-img{
+        margin-bottom: 2rem;
     }
 
 }
