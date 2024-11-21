@@ -26,7 +26,7 @@ const Projectoverview = (props) => {
 
         <div className="button-grid">
         <Button img={github} type='button'  alt="github" link={props.projectGithub} target="_blank">Github</Button>
-        <Button img={website} type='button'  alt={props.projectName} link={props.projectWebsite} target="_blank">Website</Button>
+        <Button img={website} type='button'  alt={props.projectName} link={props.projectWebsite} target="_blank">View</Button>
         </div>
     </div>
     </article>

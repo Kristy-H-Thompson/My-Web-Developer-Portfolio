@@ -14,7 +14,7 @@ const StaffSync = () => {
         projectGithub="https://github.com/Kristy-H-Thompson/staffSync"
         projectWebsite="https://drive.google.com/file/d/1P4EtECP367esbrNcRkglSNNc58tUQ7KN/view?usp=sharing"
       >
-        A command-line application to manage a company's employee database
+        The Staff Sync project is a command-line application designed to streamline the management and tracking of employee data within a company. Built using Node.js, Inquirer, and PostgreSQL, it provides an interactive and efficient way for administrators to manage their workforce data through a series of easy-to-use prompts and queries. The motivation behind creating this project was to solve the challenges of keeping track of employee information, roles, and departments in an organized and accessible way. By leveraging this application, users can perform essential functions such as adding and updating employee records, roles, and departments, as well as deleting outdated or redundant entries. 
       </Projectoverview>
 
       <Projectdetails
@@ -28,9 +28,9 @@ const StaffSync = () => {
           <b>Software & Technology Used:</b>
         </p>
         <ul className="projectList">
-          <li><b>Node.js:</b> description here</li>
-          <li><b>Inquirer: </b> description here</li>
-          <li><b>PostgreSQL: </b> description here</li>
+          <li><b>Node.js:</b> In the Staff Sync project, Node.js is used to build the server-side functionality, handling user input, database connections, and executing the core logic of managing employee data.</li>
+          <li><b>Inquirer: </b>Inquirer is used to prompt users with interactive questions in the command-line interface, allowing them to view, add, update, or delete employee records, roles, and departments.</li>
+          <li><b>PostgreSQL: </b> ostgreSQL serves as the database to store and manage employee, role, and department information, allowing the application to perform CRUD operations and maintain data integrity.</li>
         </ul>
 
         <br />

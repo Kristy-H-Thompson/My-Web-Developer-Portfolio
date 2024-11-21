@@ -22,20 +22,20 @@ const Footer = (props) => {
         <hr/>
         <ul>
             <li><b>Name:</b> Kristy Thompson</li>
-            <li><b>Email:</b> kristy.h.thompson@gmail.com</li>
-            <li><b>Time Zone:</b> EST </li>
+            <li><b>Email:</b> kristy.n.hayes@gmail.com</li>
+            <li><b>Time Zone:</b> MST </li>
         </ul>
         <Toggle />   
         </div>
 
 
         <div id="bottom-nav" className="footer-nav">
-        <h4>Navigation</h4>
+        <h4>Other Links</h4>
         <hr/>
         <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>   
+            <li><a href="https://github.com/Kristy-H-Thompson">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/kristy-thompson-372990243/">Linked In</a></li>
+            <li><a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage">Indeed</a></li>
         </ul>
         </div>
     </footer>

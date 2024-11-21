@@ -39,7 +39,7 @@ const Projects = () => {
             <h3>Staff Sync</h3>
             <h4>Built using: Node.js, Inquirer, and PostgreSQL</h4>
             <hr/>
-            <p>A command-line application to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.</p>
+            <p>The Staff Sync project is a command-line application designed to streamline the management and tracking of employee data within a company. Built using Node.js, Inquirer, and PostgreSQL, it provides an interactive and efficient way for administrators to manage their workforce data through a series of easy-to-use prompts and queries.</p>
             
             <div className="project-links">
             <Link to="/staffsync" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
@@ -81,15 +81,15 @@ const Projects = () => {
             <p>Sky Watchers is a web application that you can use to view the current weather and five day forecast of any city that you would like to search. For your convenience, Sky Watchers also saves your previous searches on the left hand side of your screen. You can delete these saved searches at any time.</p>
             
             <div className="project-links">
-            <Link to="/straypaws" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
+            <Link to="/skywatchers" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/skyWatchers" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://skywatchers.onrender.com" target="_blank">Website</Button>
+            <Button img={website} alt="Website" type='button'  link="https://skywatchers.onrender.com/" target="_blank">Website</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={skyWatchericon} /></Link>
+            <Link to="/skywatchers" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={skyWatchericon} /></Link>
         </div>
         <div className="projects-img--container"> 
-            <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={skyWatchericon} /></Link>
+            <Link to="/skywatchers" onClick={Scroll}><img className="projects-img" alt="Sky watchers" src={skyWatchericon} /></Link>
         </div>
 
 
@@ -101,15 +101,15 @@ const Projects = () => {
             <p>This application prompts the user to either create a new vehicle or select an existing vehicle. After going through the creation or selection process, the user is able to perform certain actions with the selected vehicle(Such as start the car, speed up, slow down, ect). The user is returned to the actions menu after each action until they decide to exit the application.</p>
             
             <div className="project-links">
-            <Link to="/straypaws" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
+            <Link to="/wheels" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/wheelsToWindshield" target="_blank">Github</Button>
             <Button img={website} alt="Demo" type='button'  link="https://drive.google.com/file/d/1t2L3VrBXGz5nxgKhuuznc4mOqo3v8aFH/view?usp=sharing" target="_blank">Demo</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={wheels} /></Link>
+            <Link to="/wheels" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={wheels} /></Link>
         </div>
         <div className="projects-img--container"> 
-            <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={wheels} /></Link>
+            <Link to="/wheels" onClick={Scroll}><img className="projects-img" alt="Wheels to windshield" src={wheels} /></Link>
         </div>
 
         
@@ -120,15 +120,15 @@ const Projects = () => {
             <p>Travel Mosaic is a collaborative web application designed to help users plan their travel itineraries for upcoming trips. With features that allow users to add activities, create packing lists, and track budgets, we aim to enhance the travel planning experience for everyone.</p>
             
             <div className="project-links">
-            <Link to="/straypaws" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
+            <Link to="/tripmoasic" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
             <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/Trip-Mosaic" target="_blank">Github</Button>
             <Button img={website} alt="Website" type='button'  link="https://kristy-h-thompson.github.io/Trip-Mosaic/trip.htmlg" target="_blank">Website</Button>
             </div>
 
-            <Link to="/straypaws" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={travelIcon} /></Link>
+            <Link to="/tripmoasic" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={travelIcon} /></Link>
         </div>
         <div className="projects-img--container"> 
-            <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={travelIcon} /></Link>
+            <Link to="/tripmoasic" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={travelIcon} /></Link>
         </div>
 
 
