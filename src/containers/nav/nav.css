@@ -8,9 +8,8 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
-    display:none;
 }
 
 nav ul {

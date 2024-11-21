@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css';
-import {Scroll} from '../../components';
+import {Scroll, Toggle} from '../../components';
 import {mylogo} from '../../assets'
 import {Link } from "react-router-dom";
 
@@ -8,29 +8,32 @@ import {Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-	<>
-    <nav id="navBar">
-         
-    <Link className="first_link" to="/" onClick={Scroll}><img alt="My icon" className="my-icon" src={mylogo} /></Link>
+    <>
+      <nav id="navBar">
+        <Link className="first_link" to="/" onClick={Scroll}>
+          <img alt="My icon" className="my-icon" src={mylogo} />
+        </Link>
 
-    		<ul id="menu">    
-      			<li><a href="#about">About Me</a></li>      			
-            <li><a href="#projects">Portfolio</a></li>
-      			<li><a href="#contact">Contact</a></li> 
-            <li><a href="#contact">Resume</a></li> 
+        <ul id="menu"> 
+          <li><a href="#about">About Me</a></li>      			
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li> 
+          <li><a href="#contact">Resume</a></li> 
+          
+        </ul>
 
-    		</ul>
-			
-  		<div id="menuToggle" className="handle"> 
-			<a href="#homgit adde"><img alt="My icon" className="my-icon" src="https://i.imgur.com/OBpKPl1.png" /></a> 
-		</div>
-	</nav>
-	<div id="pushBack" style={{height:'0em', display:'none'}}></div>
-	</>
-  )
-}
+        <div id="menuToggle" className="handle">
+          <a href="#home">
+            <img alt="My icon" className="my-icon" src="https://i.imgur.com/OBpKPl1.png" />
+          </a> 
+        </div>
+      </nav>
+      <div id="pushBack" style={{height:'0em', display:'none'}}></div>
+    </>
+  );
+};
 
-export default Nav
+export default Nav;
 
 
 
