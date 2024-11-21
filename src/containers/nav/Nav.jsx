@@ -1,6 +1,6 @@
 import React from 'react'
 import './nav.css';
-import {Scroll, Toggle} from '../../components';
+import {Scroll} from '../../components';
 import {mylogo} from '../../assets'
 import {Link } from "react-router-dom";
 
