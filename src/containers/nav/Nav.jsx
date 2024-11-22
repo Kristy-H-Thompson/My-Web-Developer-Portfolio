@@ -88,7 +88,7 @@ const Nav = () => {
             </a>
           </li>
           <li>
-            <a href={resumeDocument} download="MyExampleDoc" target="_blank">
+            <a href={resumeDocument} download="My resume" rel="noreferrer" target="_blank">
               Resume
             </a>
           </li>
