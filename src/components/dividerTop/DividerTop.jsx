@@ -2,7 +2,7 @@ import React from 'react'
 
 const DividerTop = () => {
   return (
-    <div class="border--top"></div>
+    <div className="border--top"></div>
   )
 }
 

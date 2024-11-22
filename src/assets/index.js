@@ -25,6 +25,8 @@ export const staffSyncIcon = require('./staffSyncIcon.png');
 export const skyWatchericon = require('./skyWatcherIcon.png');
 export const wheels = require('./wheels.png');
 export const travelIcon = require('./travelIcon.png');
+export const resumeDocument = require('./CodingResume.pdf');
+
 
 
 
