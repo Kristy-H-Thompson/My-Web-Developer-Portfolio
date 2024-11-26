@@ -12,10 +12,13 @@ header {
 
 .header {
     display:block;
-    margin-top:4rem;
     padding-left:25%;
     padding-right:2rem;
     padding-top:4rem;
+}
+
+.header p {
+    max-width: 66ch;
 }
 
 .title{
@@ -24,6 +27,7 @@ header {
 .accent{
     background-color: var(--purple-dark);
     min-height:100vh;
+    padding-top:4rem;
 }
 
 .header-img{
@@ -31,7 +35,6 @@ header {
     border:15px solid var(--white);
     border-radius:20px;
     margin-left:40%;
-    margin-top:20%;
     position:relative;
     width:80%;
     z-index:2;

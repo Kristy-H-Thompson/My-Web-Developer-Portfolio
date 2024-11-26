@@ -1,44 +1,57 @@
 #navBar {
     background-color: var(--purple-dark);
-    box-sizing: border-box;
-    height:7rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    height:80px;
     padding: 0.5rem;
-    padding-top:0rem;
-    position: static;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 3;
-    width: 100%;
+    padding-top:0;
+    padding-bottom: 0;
+    position: sticky;
+    top:0;
+    z-index: 10;
 }
 
 nav ul {
-    overflow: hidden;
     background-color: var(--blue);
+    display: flex;
+    flex-grow: 1;
+    gap:1rem;
     margin: 0;
     padding: 0;
     color: var(--white);
     text-align: left;
-    -webkit-transition: max-height 0.4s;
-    -ms-transition: max-height 0.4s;
-    -mos-transition: max-height 0.4s;
-    -o-transition: max-height 0.4s;
-    transition: max-height 0.4s;
 }
+
 nav li {
     display: inline-block;
     font-family: var(--paragraphfont);
     font-size: 1.2rem;
-    margin-left:1rem;
-    padding: 0 1%;
+    padding:0;
     text-transform: capitalize;
 }
-nav a, nav a:active {
+nav ul a, nav ul a:active {
     display: block;
     text-decoration: none;
-    padding: 1em 0;
+    padding: 1.5rem 0;
     color: inherit;
 }
+
+.first_link {
+    background-color: var(--white);
+    border: 2px solid var(--orange);
+    border-radius:40%;
+    display: block;
+    margin-block: .5rem;
+    margin-left: .5rem;
+    margin-right:.5rem;
+    margin-top:.5rem;
+    padding:15px;
+    position: relative;
+    top: 20px;
+    width:120px;
+}
+
 nav a:hover {
     color: var(--orange);
     text-decoration: underline wavy;
@@ -58,19 +71,6 @@ nav .handle {
     font-size: 130%;
     text-transform: uppercase;
 }
-.my-icon {
-    background-color: var(--white);
-    border: 2px solid var(--orange);
-    border-radius:40%;
-    display: inline;
-    float: left;
-    margin-block: .5rem;
-    margin-left: .5rem;
-    margin-right:.5rem;
-    margin-top:2rem;
-    padding:25px;
-    width:60px;
-}
 
 #pushback{
     display:none;
@@ -83,18 +83,26 @@ nav .handle {
 
 
 @media (max-width:770px) {
-    #navBar{
-    display:block;
-    }
 
     nav li{
     font-size: 1.1rem;
-    margin-block: .2rem ;
 }
 
     .pushback{
         display: block;
         height:7rem;
+    }
+
+    #navBar {
+        gap:.5rem;
+    }
+
+    .first_link {
+        width:100px;
+    }
+
+    nav ul {
+        gap:.5rem;
     }
 }
 
@@ -104,6 +112,14 @@ nav .handle {
     nav li{
     font-size: .9rem;
     margin-block: .2rem ;
+}
+
+.first_link {
+    width:90px;
+}
+
+#navBar {
+    gap:.5rem;
 }
 
 .my-icon{

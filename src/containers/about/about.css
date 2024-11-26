@@ -14,15 +14,21 @@
 }
 
 .tech {
-    flex: 1 1 50%; /* Take up 50% of the space on larger screens */
     font-size: 1rem;
-    margin-top: 2rem; /* Add more space between the laptop and the text */
-    padding-top: 1rem; /* Optional: adds padding for more breathing room */
+    padding:1rem;
+    width:32%;
 }
 
 ul {
     font-size: 1rem;
     margin-left: 0;
+}
+
+@media (max-width:1300px) {
+
+    .tech {
+        width:100%;
+    }
 }
 
 /* For smaller screens */
@@ -40,9 +46,9 @@ ul {
     }
 
     .tech {
-        flex: 1 1 100%; /* Take full width of the container */
         font-size: 0.9rem;
         margin-top: 2rem; /* Add more space between image and text */
         padding-top: 1rem; /* Optional: extra padding on top for better spacing */
+        width:100%;
     }
 }
