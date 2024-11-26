@@ -117,10 +117,7 @@ window.onload = function() {
     if (menuTog !== null) {
       menuTog.addEventListener('click', togNav);
     }
-  
-    if (navBar !== null) {
-      window.addEventListener('scroll', fixNav);
-    }
+
   };
   
 

@@ -18,8 +18,7 @@ const About = () => {
           <h2>What do I do?</h2>
           <hr />
           <p>
-          As a full stack software engineer, I am passionate about creating immersive websites and apps that seamlessly blend form with function. My ever-growing toolkit now includes a variety of technologies, such as HTML, CSS, JavaScript, React, Node.js, TypeScript, Python, MySQL, Sass, Figma, Tailwind CSS, and PHP. I am driven by a love for building innovative and impactful projects, constantly exploring new technologies, tools, and best practices to deliver high-quality, scalable solutions in web development.
-          </p>          
+          As a full-stack software engineer, I’m passionate about creating immersive websites and apps that blend form with function seamlessly. My skills span a variety of technologies such as HTML, CSS, JavaScript, React, Node.js, TypeScript, Python, MySQL, Sass, Figma, Tailwind CSS, and PHP. I’m driven by the excitement of building innovative, impactful projects and am constantly exploring new tools and best practices. With each project, I aim to craft seamless, user-friendly experiences, all while expanding my expertise to tackle new challenges and deliver scalable, high-quality solutions.      </p>          
         </div>
     </section>
   )
