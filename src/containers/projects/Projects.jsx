@@ -1,9 +1,9 @@
 // src/pages/Projects.js
 import React from 'react';
 import './projects.css';
-import { Button, DividerTop, DividerBottom, Project, Scroll } from '../../components';
+import { DividerTop, DividerBottom, Project } from '../../components';
 import { github, website, strayPaws, staffSyncIcon, starstar, skyWatchericon, wheels, travelIcon } from '../../assets';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 const Projects = () => {
   const projectData = [
