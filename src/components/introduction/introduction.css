@@ -1,9 +1,17 @@
 .introduction{
     display:inline;
-    width:80%;
+    width:34%;
+    padding:1rem;
 }
 
-@media (max-width:850px) {
+@media (max-width:1300px) {
+
+    .introduction {
+        width:55%;
+    }
+}
+
+@media (max-width:900px) {
 
     .introduction {
         width:100%;

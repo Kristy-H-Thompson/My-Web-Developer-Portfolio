@@ -31,8 +31,8 @@
   border: none;
   color: var(--white);
   cursor: pointer;
-  -webkit-animation: ani2 0.7s steps(70) forwards;
-  animation: ani2 0.7s steps(70) forwards;
+  -webkit-animation: ani2 0.5s steps(70) forwards;
+  animation: ani2 0.5s steps(70) forwards;
   width: 100%;
   text-transform: uppercase; /* Capitalize text for a strong, uniform appearance */
   transition: all 0.3s ease; /* Smooth transition for hover effects */
@@ -50,9 +50,9 @@
     color: var(--black);
     text-align: center;
     font-weight: 100;
-    font-size:1rem;
+    font-size:.7rem;
     position: absolute;
-    letter-spacing: 1px;
+    letter-spacing: .7px;
     margin-top: 17px;
     overflow: hidden;
     font-weight: bold;

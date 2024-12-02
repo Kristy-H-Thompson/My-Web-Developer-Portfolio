@@ -6,3 +6,4 @@ export {default as Intro } from './introduction/Introduction';
 export {default as Scroll } from './scroll/ScrollToTop';
 export {default as Techgrid } from './techgrid/Techgrid';
 export {default as Toggle } from './toggle/Toggle';
+export {default as Project } from './project/ProjectCard';

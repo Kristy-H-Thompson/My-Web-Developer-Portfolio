@@ -1,4 +1,3 @@
-
 .projects {
     background-color: var(--purple-dark);
     color: var(--white);
@@ -15,11 +14,13 @@
 }
 
 .projects-grid {
-    display:flex; 
+    display: flex;
     gap: 2rem;
     margin-top: 3rem;
     padding-top: 0px;
-    flex-wrap: wrap;
+}
+
+.projects-grid {
     width:100%;
 }
 
@@ -29,27 +30,22 @@
     box-sizing: border-box;
     color: var(--black);
     margin-left: 1rem;
-    max-width: 95%;
+    max-width: 100%;
     padding: 1rem;
     padding-right: 8rem; /* Space for the image */
     position: relative; /* Ensure the image sits beside */
+    width:100%;
 }
 
 .projects-img {
-    aspect-ratio: 1/1;
-    background-color: var(--white);
+    aspect-ratio: 1 / 1;
     border: 10px solid var(--purple-dark);
     border-radius: 100%;
     margin-top: 1rem;
-    position: absolute;
-    right: 10px; /* Adjust image to the side of text */
-    top: -30px;
-    min-width: 100px;
-    width: 100%;
-    max-width: 200px;
+    min-width: 50px;
+    position: relative;
+    margin-right:-3rem;
     z-index: 1;
-    transition: border-color 0.3s ease;
-    margin-bottom:-7rem;
 }
 
 .projects-img:hover {
@@ -89,7 +85,6 @@
         box-sizing: border-box;
         margin-inline: 0px;
         padding: 1rem;
-        width:100%;
     }
 
     .projects-img--container {
@@ -118,11 +113,6 @@
 }
 
 @media (max-width: 550px) {
-
-    .project  {
-        width:100%;
-    }
-
     .mobile--project-img {
         margin-right: -2.3rem;
         margin-top: -2rem;

@@ -6,12 +6,17 @@ import './contactMe.css';
 import { Button } from '../../components';
 import { send } from '../../assets';
 
-const SERVICE_ID = "service_k4v718l";
-const TEMPLATE_ID = "template_tn3dgeq";
-const USER_ID = "ZVZRCj5iJf9IM5Swd";
+// Environment variables for EmailJS service
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+const USER_ID = process.env.REACT_APP_USER_ID;
 
 const ContactMe = () => {
-  const [formErrors, setFormErrors] = useState({});
+  const [formErrors, setFormErrors] = useState({
+    user_email: "",
+    user_name: "",
+    user_message: "",
+  });
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
@@ -39,24 +44,33 @@ const ContactMe = () => {
       return; // Prevent form submission if there are errors
     }
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-      .then((result) => {
-        console.log(result.text);
-        Swal.fire({
-          icon: 'success',
-          title: 'Message Sent Successfully'
+    // Send email using EmailJS
+    if (SERVICE_ID && TEMPLATE_ID && USER_ID) {
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+        .then((result) => {
+          console.log(result.text);
+          Swal.fire({
+            icon: 'success',
+            title: 'Message Sent Successfully',
+          });
+          e.target.reset();  // Clear form
+          setFormErrors({});  // Clear form errors after successful submission
+        }, (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops, something went wrong',
+            text: error.text,
+          });
         });
-      }, (error) => {
-        console.log(error.text);
-        Swal.fire({
-          icon: 'error',
-          title: 'Ooops, something went wrong',
-          text: error.text,
-        });
+    } else {
+      console.error("EmailJS credentials are missing!");
+      Swal.fire({
+        icon: 'error',
+        title: 'Configuration Error',
+        text: 'EmailJS credentials are missing or incorrect.',
       });
-    
-    e.target.reset();
-    setFormErrors({}); // Clear errors after successful submission
+    }
   };
 
   const validateEmail = (email) => {
@@ -66,6 +80,7 @@ const ContactMe = () => {
 
   const handleBlur = (e) => {
     const { name, value } = e.target;
+    // If the field is empty, set an error message
     if (!value) {
       setFormErrors((prevErrors) => ({
         ...prevErrors,
@@ -97,7 +112,7 @@ const ContactMe = () => {
           onBlur={handleBlur} // Trigger validation on blur (when field loses focus)
         />
         <Form.Field
-          id="form-input-control-last-name"
+          id="form-input-control-name"
           control={Input}
           label="Name"
           name="user_name"
@@ -108,7 +123,7 @@ const ContactMe = () => {
           onBlur={handleBlur} // Trigger validation on blur
         />
         <Form.Field
-          id="form-textarea-control-opinion"
+          id="form-textarea-control-message"
           control={TextArea}
           label="Message"
           name="user_message"

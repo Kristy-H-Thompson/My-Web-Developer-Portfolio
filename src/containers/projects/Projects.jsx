@@ -1,147 +1,102 @@
-import React from 'react'
-import './projects.css'
-import {Button, DividerTop, DividerBottom, Scroll} from '../../components';
-import {github, projects, strayPaws, starstar, website, staffSyncIcon, skyWatchericon, wheels, travelIcon} from '../../assets'
+// src/pages/Projects.js
+import React from 'react';
+import './projects.css';
+import { Button, DividerTop, DividerBottom, Project, Scroll } from '../../components';
+import { github, website, strayPaws, staffSyncIcon, starstar, skyWatchericon, wheels, travelIcon } from '../../assets';
 import { Outlet, Link } from "react-router-dom";
 
-
-
-
 const Projects = () => {
+  const projectData = [
+    {
+      name: 'Stray Paws',
+      techStack: 'HTML, CSS, Python, MYSQL, Flask, Shelterluv API',
+      description: 'Stray Paws Rescue is a foster-based rescue located in Missouri. My team and I built them a new website using Flask to create a flexible modular page design and API calls.',
+      detailsLink: '/straypaws',
+      githubLink: 'https://github.com/Kristy-H-Thompson/Stray-Paws',
+      websiteLink: 'https://www.straypawsrescue.com/',
+      image: strayPaws,
+      altText: 'StrayPaws',
+      github: github,
+      website: website
+    },
+    {
+      name: 'Staff Sync',
+      techStack: 'Node.js, Inquirer, PostgreSQL',
+      description: 'Staff Sync is a command-line application designed to manage employee data. It uses Node.js, Inquirer, and PostgreSQL for an efficient, interactive way to manage workforce data.',
+      detailsLink: '/staffsync',
+      githubLink: 'https://github.com/Kristy-H-Thompson/staffSync',
+      websiteLink: 'https://drive.google.com/file/d/1P4EtECP367esbrNcRkglSNNc58tUQ7KN/view?usp=sharing',
+      image: staffSyncIcon,
+      altText: 'StaffSync',
+      github: github,
+      website: website
+    },
+    {
+      name: 'Starstar',
+      techStack: 'Python, MySQL, Discord, Disnake',
+      description: 'Starstar is a custom Discord bot that helps with server entertainment and utility functions such as tracking points, adding character info, and creating topics.',
+      detailsLink: '/starstar',
+      githubLink: 'https://github.com/Kristy-H-Thompson/Starstar-Website',
+      websiteLink: 'https://starstarbot.netlify.app/',
+      image: starstar,
+      altText: 'Starstar',
+      github: github,
+      website: website
+    },
+    {
+      name: 'Sky Watchers',
+      techStack: 'HTML, CSS, Node.js, Type Script, Vite, Open Weather API',
+      description: 'Sky Watchers is a web application that lets users view weather and a five-day forecast for any city. It also saves previous searches and allows deletion.',
+      detailsLink: '/skywatchers',
+      githubLink: 'https://github.com/Kristy-H-Thompson/skyWatchers',
+      websiteLink: 'https://skywatchers.onrender.com',
+      image: skyWatchericon,
+      altText: 'SkyWatchers',
+      github: github,
+      website: website
+    },
+    {
+      name: 'Wheels To Windsheild',
+      techStack: 'Node.js, Typescript',
+      description: 'An application that allows users to create a vehicle and perform actions such as starting the car, speeding up, slowing down, etc.',
+      detailsLink: '/wheels',
+      githubLink: 'https://github.com/Kristy-H-Thompson/wheelsToWindshield',
+      websiteLink: 'https://drive.google.com/file/d/1t2L3VrBXGz5nxgKhuuznc4mOqo3v8aFH/view?usp=sharing',
+      image: wheels,
+      altText: 'WheelsToWindshield',
+      github: github,
+      website: website
+    },
+    {
+      name: 'Trip Mosaic',
+      techStack: 'HTML, Tailwind CSS, Javascript',
+      description: 'Trip Mosaic is a collaborative app for planning travel itineraries, allowing users to track activities, budgets, and packing lists.',
+      detailsLink: '/tripmoasic',
+      githubLink: 'https://github.com/Kristy-H-Thompson/Trip-Mosaic',
+      websiteLink: 'https://kristy-h-thompson.github.io/Trip-Mosaic/trip.htmlg',
+      image: travelIcon,
+      altText: 'TripMosaic',
+      github: github,
+      website: website
+    }
+  ];
+
   return (
     <>
-    <DividerTop />
-    <main className="projects" id="projects">
+      <DividerTop />
+      <main className="projects" id="projects">
         <h2>Coding Projects</h2>
-        <hr/>    
+        <hr />
         <div className="projects-grid">
-
-        <div className="project">
-            <h3>Stray Paws</h3>
-            <h4>Built using: HTML, CSS, Python, MYSQL, Flask, and Shelterluv API</h4>
-            <hr/>
-            <p>Stray Paws Rescue is a foster-based rescue located in Missouri. While transitioning their software solution from Rescue Groups to Shelterluv, they recognized a need for additional assistance. My team and I built them a new website that uses a Flask backend to create a flexible modular page design and API calls to load their adoptable animals in real time.</p>
-            
-            <div className="project-links">
-            <Link to="/straypaws" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/Stray-Paws" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://www.straypawsrescue.com/" target="_blank">Website</Button>
-            </div>
-
-            <Link to="/straypaws" onClick={Scroll}><img alt="StrayPaws" className="mobile--project-img" src={strayPaws} /></Link>
-        </div>
-        <div className="projects-img--container"> 
-            <Link to="/straypaws" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={strayPaws} /></Link>
-        </div>
-
-
-        <div className="project">
-            <h3>Staff Sync</h3>
-            <h4>Built using: Node.js, Inquirer, and PostgreSQL</h4>
-            <hr/>
-            <p>The Staff Sync project is a command-line application designed to streamline the management and tracking of employee data within a company. Built using Node.js, Inquirer, and PostgreSQL, it provides an interactive and efficient way for administrators to manage their workforce data through a series of easy-to-use prompts and queries.</p>
-            
-            <div className="project-links">
-            <Link to="/staffsync" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/staffSync" target="_blank">Github</Button>
-            <Button img={website} alt="Demo" type='button'  link="https://drive.google.com/file/d/1P4EtECP367esbrNcRkglSNNc58tUQ7KN/view?usp=sharing" target="_blank">Demo</Button>
-            </div>
-
-            <Link to="/staffsync" onClick={Scroll}><img alt="StrayPaws" className="mobile--project-img" src={staffSyncIcon} /></Link>
-        </div>
-        <div className="projects-img--container"> 
-            <Link to="/staffsync" onClick={Scroll}><img className="projects-img" alt="project 1 -- staffSync" src={staffSyncIcon} /></Link>
-        </div>
-
-
-        <div className="project">
-            <h3>Starstar</h3>
-            <h4>Built using: Python, MySQL, Discord, Disnake</h4>
-            <hr/>
-            <p>As a custom discord bot commission from a roleplaying website, Starstar represents the site’s mascot. She helps with server entertainment — games and sarcastic remarks — as well as utility functions: tracking points in the shop; adding and managing character information; creating topics and tracking posts.</p>
-
-            <div className="project-links">
-            <Link to="/starstar" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/Starstar-Website" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://starstarbot.netlify.app/" target="_blank">Website</Button>
-            </div>
-
-            <Link to="/starstar" onClick={Scroll}><img alt="Starstar" className="mobile--project-img" src={starstar} /></Link>
-        </div>
-
-        <div className="projects-img--container">
-            <Link to="/starstar" onClick={Scroll}><img className="projects-img" alt="project 2 -- Starstar" src={starstar} /></Link>
-        </div>
-
-
-        <div className="project">
-            <h3>Sky Watchers</h3>
-            <h4>Built using: HTML, CSS, Node.js, Type Script, Vite, Open Weather API</h4>
-            <hr/>
-            <p>Sky Watchers is a web application that you can use to view the current weather and five day forecast of any city that you would like to search. For your convenience, Sky Watchers also saves your previous searches on the left hand side of your screen. You can delete these saved searches at any time.</p>
-            
-            <div className="project-links">
-            <Link to="/skywatchers" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/skyWatchers" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://skywatchers.onrender.com" target="_blank">Website</Button>
-            </div>
-
-            <Link to="/skywatchers" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={skyWatchericon} /></Link>
-        </div>
-        <div className="projects-img--container"> 
-            <Link to="/skywatchers" onClick={Scroll}><img className="projects-img" alt="Sky watchers" src={skyWatchericon} /></Link>
-        </div>
-
-
-
-        <div className="project">
-            <h3>Wheels To Windsheild</h3>
-            <h4>Built using: Node.js, Typescript</h4>
-            <hr/>
-            <p>This application prompts the user to either create a new vehicle or select an existing vehicle. After going through the creation or selection process, the user is able to perform certain actions with the selected vehicle(Such as start the car, speed up, slow down, ect). The user is returned to the actions menu after each action until they decide to exit the application.</p>
-            
-            <div className="project-links">
-            <Link to="/wheels" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/wheelsToWindshield" target="_blank">Github</Button>
-            <Button img={website} alt="Demo" type='button'  link="https://drive.google.com/file/d/1t2L3VrBXGz5nxgKhuuznc4mOqo3v8aFH/view?usp=sharing" target="_blank">Demo</Button>
-            </div>
-
-            <Link to="/wheels" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={wheels} /></Link>
-        </div>
-        <div className="projects-img--container"> 
-            <Link to="/wheels" onClick={Scroll}><img className="projects-img" alt="Wheels to windshield" src={wheels} /></Link>
-        </div>
-
-        
-        <div className="project">
-            <h3>Trip Mosaic</h3>
-            <h4>Built using: HTML, Tailwind Css, Javascript</h4>
-            <hr/>
-            <p>Travel Mosaic is a collaborative web application designed to help users plan their travel itineraries for upcoming trips. With features that allow users to add activities, create packing lists, and track budgets, we aim to enhance the travel planning experience for everyone.</p>
-            
-            <div className="project-links">
-            <Link to="/tripmoasic" onClick={Scroll}><Button img={projects} alt="Project Details" type='button' target="_self">Details</Button></Link>            
-            <Button img={github} alt="Github" type='button'  link="https://github.com/Kristy-H-Thompson/Trip-Mosaic" target="_blank">Github</Button>
-            <Button img={website} alt="Website" type='button'  link="https://kristy-h-thompson.github.io/Trip-Mosaic/trip.htmlg" target="_blank">Website</Button>
-            </div>
-
-            <Link to="/tripmoasic" onClick={Scroll}><img alt="SkyWatchers" className="mobile--project-img" src={travelIcon} /></Link>
-        </div>
-        <div className="projects-img--container"> 
-            <Link to="/tripmoasic" onClick={Scroll}><img className="projects-img" alt="project 1 -- Straypaws" src={travelIcon} /></Link>
-        </div>
-
-
-
-
-
-
-        </div>
-    </main>  
-    <DividerBottom />
-    <Outlet />
+        {projectData.map((project, index) => (
+          <Project key={index} project={project} />
+        ))}
+      </div>
+      </main>
+      <DividerBottom />
+      <Outlet />
     </>
-  )
-}
+  );
+};
 
-export default Projects     
+export default Projects;
