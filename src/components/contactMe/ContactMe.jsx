@@ -11,11 +11,6 @@ const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
 const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
 const USER_ID = process.env.REACT_APP_USER_ID;
 
-// Log environment variables to ensure they are correctly set
-console.log('SERVICE_ID:', SERVICE_ID);
-console.log('TEMPLATE_ID:', TEMPLATE_ID);
-console.log('USER_ID:', USER_ID);
-
 const ContactMe = () => {
   const [formErrors, setFormErrors] = useState({
     user_email: "",

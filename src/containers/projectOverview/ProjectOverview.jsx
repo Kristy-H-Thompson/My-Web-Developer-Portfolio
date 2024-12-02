@@ -11,7 +11,6 @@ const Projectoverview = (props) => {
 
     <div>
     <div className="accent">
-        <Toggle />
         <img className="header-img" alt=" Kristy" src={props.projectImage} />
     </div>
     <DividerBottom />

@@ -81,6 +81,12 @@ nav .handle {
     height:0px;
 }
 
+/* Assuming your .active class will be applied when a section is in view */
+a.active {
+    color: #f39c12;  /* Highlight color (change as needed) */
+    font-weight: bold;
+  }
+
 
 @media (max-width:770px) {
 
